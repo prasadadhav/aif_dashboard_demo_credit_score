@@ -1,0 +1,2719 @@
+{
+  "pages": [
+    {
+      "components": [
+        {
+          "attributes": {
+            "id": "iofcf"
+          },
+          "children": [
+            {
+              "attributes": {
+                "id": "if369"
+              },
+              "children": [
+                {
+                  "attributes": {
+                    "id": "iz4aj"
+                  },
+                  "children": [
+                    {
+                      "alt": "Image component",
+                      "attributes": {
+                        "id": "i6cljk",
+                        "src": "https://api-frontassets.inwink.com/event/f4e18963-dc0e-f011-aaa8-000d3a48e9fe/asset/02338f0d-2a9a-f011-b485-6045bd941168/file/laif_rgb_negatif"
+                      },
+                      "description": "Image component",
+                      "display_order": 0,
+                      "id": "i6cljk",
+                      "name": "i6cljk",
+                      "src": "https://api-frontassets.inwink.com/event/f4e18963-dc0e-f011-aaa8-000d3a48e9fe/asset/02338f0d-2a9a-f011-b485-6045bd941168/file/laif_rgb_negatif",
+                      "tag": "img",
+                      "type": "image",
+                      "class_list": ["navbar-logo"]
+                    },
+                    {
+                      "attributes": {
+                        "id": "i8eko"
+                      },
+                      "content": "Luxembourg language CEFR test Dashboard",
+                      "description": "Text element",
+                      "display_order": 1,
+                      "id": "i8eko",
+                      "name": "Luxembourg language CEFR test Dashboard",
+                      "type": "text"
+                    },
+                    {
+                      "attributes": {
+                        "id": "iywdg"
+                      },
+                      "children": [
+                        {
+                          "attributes": {
+                            "href": "/",
+                            "id": "igwk8"
+                          },
+                          "description": "Link element",
+                          "display_order": 0,
+                          "id": "igwk8",
+                          "label": "Home",
+                          "name": "igwk8",
+                          "tag": "a",
+                          "type": "link",
+                          "url": "/"
+                        },
+                        {
+                          "attributes": {
+                            "href": "/reports",
+                            "id": "ibki7"
+                          },
+                          "description": "Link element",
+                          "display_order": 1,
+                          "id": "ibki7",
+                          "label": "Reports",
+                          "name": "ibki7",
+                          "tag": "a",
+                          "type": "link",
+                          "url": "/reports"
+                        },
+                        {
+                          "attributes": {
+                            "href": "/logs",
+                            "id": "ibki7-2"
+                          },
+                          "description": "Link element",
+                          "display_order": 2,
+                          "id": "ibki7-2",
+                          "label": "Logs",
+                          "name": "ibki7 2",
+                          "tag": "a",
+                          "type": "link",
+                          "url": "/logs"
+                        },
+                        {
+                          "attributes": {
+                            "href": "/about",
+                            "id": "ibki7-2-2"
+                          },
+                          "description": "Link element",
+                          "display_order": 3,
+                          "id": "ibki7-2-2",
+                          "label": "About",
+                          "name": "ibki7 2 2",
+                          "tag": "a",
+                          "type": "link",
+                          "url": "/about"
+                        }
+                      ],
+                      "description": " component",
+                      "display_order": 2,
+                      "id": "iywdg",
+                      "name": "iywdg",
+                      "type": "container"
+                    }
+                  ],
+                  "description": "nav container",
+                  "display_order": 0,
+                  "id": "iz4aj",
+                  "name": "iz4aj",
+                  "tag": "nav",
+                  "type": "container"
+                },
+                {
+                  "children": [
+                    {
+                      "class_list": [
+                        "heading"
+                      ],
+                      "content": "LLM's tested on the INL CEFR language tests",
+                      "description": "Text element",
+                      "display_order": 0,
+                      "id": "h1",
+                      "name": "LLM's tested on the INL CEFR language tests",
+                      "tag": "h1",
+                      "type": "text"
+                    },
+                    {
+                      "class_list": [
+                        "paragraph"
+                      ],
+                      "content": "Here the LLM's are tested on the official Luxembourgish CEFR language tests by INL.",
+                      "description": "Text element",
+                      "display_order": 1,
+                      "id": "p",
+                      "name": "Here the LLM's are tested on the official Luxembourgish CEFR language tests by INL.",
+                      "tag": "p",
+                      "type": "text"
+                    }
+                  ],
+                  "class_list": [
+                    "bdg-sect"
+                  ],
+                  "description": "section container",
+                  "display_order": 1,
+                  "id": "container_section",
+                  "name": "section",
+                  "tag": "section",
+                  "type": "container"
+                },
+                {
+                  "attributes": {
+                    "id": "idd2yg"
+                  },
+                  "children": [
+                    {
+                      "attributes": {
+                        "id": "ixa3hr"
+                      },
+                      "children": [
+                        {
+                          "attributes": {
+                            "animate": "true",
+                            "chart-color": "#4CAF50",
+                            "chart-title": "Line Chart",
+                            "curve-type": "monotone",
+                            "id": "ikj6y7",
+                            "line-width": "2",
+                            "show-grid": "true",
+                            "show-legend": "true",
+                            "show-tooltip": "true"
+                          },
+                          "chart": {
+                            "animate": true,
+                            "curveType": "monotone",
+                            "dotSize": 5,
+                            "gridColor": "#e0e0e0",
+                            "legendPosition": "top",
+                            "lineWidth": 2,
+                            "showGrid": true,
+                            "showLegend": true,
+                            "showTooltip": true
+                          },
+                          "class_list": [
+                            "line-chart-component"
+                          ],
+                          "color": "#4CAF50",
+                          "display_order": 0,
+                          "id": "ikj6y7",
+                          "name": "Line Chart",
+                          "series": [
+                            {
+                              "color": "#f51313",
+                              "dataField": "measures.value",
+                              "dataSource": "metric",
+                              "endpoint": "/metric/",
+                              "label": "Mistral",
+                              "labelField": "name",
+                              "name": "Mistral",
+                              "filter": "model_name == \"Mistral\""
+                            },
+                            {
+                              "color": "#7e29ff",
+                              "dataField": "measures.value",
+                              "dataSource": "metric",
+                              "endpoint": "/metric/",
+                              "label": "Claude 3.5 Sonnet 2",
+                              "labelField": "name",
+                              "name": "Claude 3.5 Sonnet",
+                              "filter": "model_name == \"Claude 3.5 Sonnet\""
+                            }
+                          ],
+                          "title": "Line Chart",
+                          "type": "line-chart"
+                        }
+                      ],
+                      "class_list": [
+                        "gjs-cell"
+                      ],
+                      "description": " component",
+                      "display_order": 0,
+                      "id": "ixa3hr",
+                      "name": "ixa3hr",
+                      "type": "container"
+                    },
+                    {
+                      "attributes": {
+                        "id": "iznull"
+                      },
+                      "children": [
+                        {
+                          "attributes": {
+                            "bar-width": "30",
+                            "chart-color": "#3498db",
+                            "chart-title": "Bar Chart",
+                            "id": "icsdfx",
+                            "orientation": "vertical",
+                            "show-grid": "true",
+                            "show-legend": "true",
+                            "stacked": "false"
+                          },
+                          "chart": {
+                            "animate": true,
+                            "barGap": 4,
+                            "barWidth": 30,
+                            "gridColor": "#e0e0e0",
+                            "legendPosition": "top",
+                            "orientation": "vertical",
+                            "showGrid": true,
+                            "showLegend": true,
+                            "showTooltip": true,
+                            "stacked": false
+                          },
+                          "class_list": [
+                            "bar-chart-component"
+                          ],
+                          "color": "#3498db",
+                          "display_order": 0,
+                          "id": "icsdfx",
+                          "name": "Bar Chart",
+                          "series": [
+                            {
+                              "color": "#f51313",
+                              "dataField": "measures.value",
+                              "dataSource": "metric",
+                              "endpoint": "/metric/",
+                              "label": "Mistral",
+                              "labelField": "name",
+                              "name": "Mistral",
+                              "filter": "model_name == \"Mistral\""
+                            },
+                            {
+                              "color": "#7e29ff",
+                              "dataField": "measures.value",
+                              "dataSource": "metric",
+                              "endpoint": "/metric/",
+                              "label": "Claude 3.5 Sonnet 2",
+                              "labelField": "name",
+                              "name": "Claude 3.5 Sonnet",
+                              "filter": "model_name == \"Claude 3.5 Sonnet\""
+                            }
+                          ],
+                          "title": "Bar Chart",
+                          "type": "bar-chart"
+                        }
+                      ],
+                      "class_list": [
+                        "gjs-cell"
+                      ],
+                      "description": " component",
+                      "display_order": 1,
+                      "id": "iznull",
+                      "name": "iznull",
+                      "type": "container"
+                    },
+                    {
+                      "attributes": {
+                        "id": "ik39ra"
+                      },
+                      "children": [
+                        {
+                          "attributes": {
+                            "chart-color": "#8884d8",
+                            "chart-title": "Radar Chart",
+                            "id": "iy2apa",
+                            "show-grid": "true",
+                            "show-radius-axis": "true",
+                            "show-tooltip": "true"
+                          },
+                          "chart": {
+                            "dotSize": 3,
+                            "gridType": "polygon",
+                            "legendPosition": "top",
+                            "showGrid": true,
+                            "showLegend": true,
+                            "showRadiusAxis": true,
+                            "showTooltip": true,
+                            "strokeWidth": 2
+                          },
+                          "class_list": [
+                            "radar-chart-component"
+                          ],
+                          "color": "#8884d8",
+                          "display_order": 0,
+                          "id": "iy2apa",
+                          "name": "Radar Chart",
+                          "series": [
+                            {
+                              "color": "#4CAF50",
+                              "dataField": "measures.value",
+                              "dataSource": "metric",
+                              "endpoint": "/metric/",
+                              "label": "Mistral",
+                              "labelField": "name",
+                              "name": "Mistral",
+                              "filter": "model_name == \"Mistral\""
+                            },
+                            {
+                              "color": "#2196F3",
+                              "dataField": "measures.value",
+                              "dataSource": "metric",
+                              "endpoint": "/metric/",
+                              "label": "Claude 3.5 Sonnet 2",
+                              "labelField": "name",
+                              "name": "Claude 3.5 Sonnet",
+                              "filter": "model_name == \"Claude 3.5 Sonnet\""
+                            }
+                          ],
+                          "title": "Radar Chart",
+                          "type": "radar-chart"
+                        }
+                      ],
+                      "class_list": [
+                        "gjs-cell"
+                      ],
+                      "description": " component",
+                      "display_order": 2,
+                      "id": "ik39ra",
+                      "name": "ik39ra",
+                      "type": "container"
+                    }
+                  ],
+                  "class_list": [
+                    "gjs-row"
+                  ],
+                  "description": " component",
+                  "display_order": 2,
+                  "id": "idd2yg",
+                  "name": "idd2yg",
+                  "type": "container"
+                },
+                {
+                  "attributes": {
+                    "id": "i75sw8"
+                  },
+                  "children": [
+                    {
+                      "attributes": {
+                        "id": "icu0vc"
+                      },
+                      "children": [
+                        {
+                          "attributes": {
+                            "id": "iip80d"
+                          },
+                          "children": [
+                            {
+                              "attributes": {
+                                "id": "ij8249"
+                              },
+                              "content": "Analytics Dashboard",
+                              "description": "Text element",
+                              "display_order": 0,
+                              "id": "ij8249",
+                              "name": "Analytics Dashboard",
+                              "tag": "h1",
+                              "type": "text"
+                            },
+                            {
+                              "attributes": {
+                                "id": "iqomwa"
+                              },
+                              "content": "Key insights and metrics",
+                              "description": "Text element",
+                              "display_order": 1,
+                              "id": "iqomwa",
+                              "name": "Key insights and metrics",
+                              "tag": "p",
+                              "type": "text"
+                            }
+                          ],
+                          "description": " component",
+                          "display_order": 1,
+                          "id": "iip80d",
+                          "name": "iip80d",
+                          "type": "container"
+                        },
+                        {
+                          "attributes": {
+                            "id": "im3mgi"
+                          },
+                          "children": [
+                            {
+                              "attributes": {
+                                "data-field": "75923b12-6486-4ae8-aef0-2b81f96f665b",
+                                "data-source": "16a4766d-cdc1-4e69-b582-014ad2bada56",
+                                "format": "number",
+                                "id": "iy7zsy",
+                                "metric-title": "Model Families tested",
+                                "negative-color": "#e74c3c",
+                                "positive-color": "#27ae60",
+                                "show-trend": true,
+                                "value-color": "#2c3e50",
+                                "value-size": 32
+                              },
+                              "class_list": [
+                                "metric-card-component",
+                                "has-data-binding"
+                              ],
+                              "color": "#2c3e50",
+                              "data_binding": {
+                                "data_field": "unique_source",
+                                "endpoint": "/model_count_4_card/",
+                                "entity": "Model"
+                              },
+                              "display_order": 0,
+                              "id": "iy7zsy",
+                              "metric": {
+                                "format": "number",
+                                "metricTitle": "Model Families tested",
+                                "negativeColor": "#e74c3c",
+                                "positiveColor": "#27ae60",
+                                "showTrend": true,
+                                "trend": 12,
+                                "value": 0,
+                                "valueColor": "#2c3e50",
+                                "valueSize": 32
+                              },
+                              "name": "iy7zsy",
+                              "title": "Model Families tested",
+                              "type": "metric-card"
+                            },
+                            {
+                              "attributes": {
+                                "data-field": "ee1a94d3-27c9-4669-9134-a2cae7488053",
+                                "data-source": "16a4766d-cdc1-4e69-b582-014ad2bada56",
+                                "format": "number",
+                                "id": "ip3i4k",
+                                "metric-title": "Total Models evaluated",
+                                "negative-color": "#e74c3c",
+                                "positive-color": "#27ae60",
+                                "show-trend": true,
+                                "value-color": "#2c3e50",
+                                "value-size": 32
+                              },
+                              "class_list": [
+                                "metric-card-component",
+                                "has-data-binding"
+                              ],
+                              "color": "#2c3e50",
+                              "data_binding": {
+                                "data_field": "unique_pid",
+                                "endpoint": "/model_count_4_card/",
+                                "entity": "Model"
+                              },
+                              "display_order": 1,
+                              "id": "ip3i4k",
+                              "metric": {
+                                "format": "number",
+                                "metricTitle": "Total Models evaluated",
+                                "negativeColor": "#e74c3c",
+                                "positiveColor": "#27ae60",
+                                "showTrend": true,
+                                "trend": 12,
+                                "value": 0,
+                                "valueColor": "#2c3e50",
+                                "valueSize": 32
+                              },
+                              "name": "ip3i4k",
+                              "title": "Total Models evaluated",
+                              "type": "metric-card"
+                            },
+                            {
+                              "attributes": {
+                                "data-field": "d6a622b9-2432-4411-a3f2-5815dff2085e",
+                                "data-source": "a2546a91-1913-4cac-86ac-283c39218a3a",
+                                "format": "number",
+                                "id": "ilcwkv",
+                                "metric-title": "No. of Metrics",
+                                "negative-color": "#e74c3c",
+                                "positive-color": "#27ae60",
+                                "show-trend": true,
+                                "value-color": "#2c3e50",
+                                "value-size": 32
+                              },
+                              "class_list": [
+                                "metric-card-component",
+                                "has-data-binding"
+                              ],
+                              "color": "#2c3e50",
+                              "data_binding": {
+                                "data_field": "unique_metric_name",
+                                "endpoint": "/model_count_4_card/",
+                                "entity": "Model"
+                              },
+                              "display_order": 2,
+                              "id": "ilcwkv",
+                              "metric": {
+                                "format": "number",
+                                "metricTitle": "No. of Metrics",
+                                "negativeColor": "#e74c3c",
+                                "positiveColor": "#27ae60",
+                                "showTrend": true,
+                                "trend": 12,
+                                "value": 0,
+                                "valueColor": "#2c3e50",
+                                "valueSize": 32
+                              },
+                              "name": "ilcwkv",
+                              "title": "No. of Metrics",
+                              "type": "metric-card"
+                            },
+                            {
+                              "attributes": {
+                                "format": "number",
+                                "metric-title": "Open-source models",
+                                "show-trend": true,
+                                "value-color": "#2c3e50",
+                                "value-size": 32
+                              },
+                              "class_list": ["metric-card-component", "has-data-binding"],
+                              "data_binding": {
+                                "data_field": "open_source_count",
+                                "endpoint": "/model_count_4_card/",
+                                "entity": "Model"
+                              },
+                              "display_order": 3,
+                              "id": "open_source_models_card",
+                              "metric": {
+                                "format": "number",
+                                "metricTitle": "Open-source models",
+                                "showTrend": true,
+                                "trend": 0,
+                                "value": 0,
+                                "valueColor": "#2c3e50",
+                                "valueSize": 32
+                              },
+                              "name": "open_source_models_card",
+                              "title": "Open-source models",
+                              "type": "metric-card"
+                            },
+                            {
+                              "attributes": {
+                                "format": "number",
+                                "metric-title": "Proprietary models",
+                                "show-trend": true,
+                                "value-color": "#2c3e50",
+                                "value-size": 32
+                              },
+                              "class_list": ["metric-card-component", "has-data-binding"],
+                              "data_binding": {
+                                "data_field": "proprietary_count",
+                                "endpoint": "/model_count_4_card/",
+                                "entity": "Model"
+                              },
+                              "display_order": 4,
+                              "id": "proprietary_models_card",
+                              "metric": {
+                                "format": "number",
+                                "metricTitle": "Proprietary models",
+                                "showTrend": true,
+                                "trend": 0,
+                                "value": 0,
+                                "valueColor": "#2c3e50",
+                                "valueSize": 32
+                              },
+                              "name": "proprietary_models_card",
+                              "title": "Proprietary models",
+                              "type": "metric-card"
+                            }
+
+                          ],
+                          "class_list": [
+                            "kpi-row"
+                          ],
+                          "description": " component",
+                          "display_order": 3,
+                          "id": "im3mgi",
+                          "name": "im3mgi",
+                          "type": "container"
+                        },
+                        {
+                          "attributes": {
+                            "id": "i34fiw"
+                          },
+                          "class_list": [
+                            "charts-row"
+                          ],
+                          "description": " component",
+                          "display_order": 5,
+                          "id": "i34fiw",
+                          "name": "i34fiw",
+                          "type": "component"
+                        }
+                      ],
+                      "description": " component",
+                      "display_order": 0,
+                      "id": "icu0vc",
+                      "name": "icu0vc",
+                      "type": "container"
+                    }
+                  ],
+                  "class_list": [
+                    "dashboard-container"
+                  ],
+                  "description": " component",
+                  "display_order": 3,
+                  "id": "i75sw8",
+                  "name": "i75sw8",
+                  "type": "container"
+                },
+                {
+                  "attributes": {
+                    "action-buttons": true,
+                    "chart-color": "#2c3e50",
+                    "chart-title": "Comments",
+                    "data-source": "023aecf5-ba9a-4872-a2e9-4b1f2872eb1b",
+                    "id": "ioj8df",
+                    "rows-per-page": 5,
+                    "show-header": true,
+                    "show-pagination": true,
+                    "striped-rows": false
+                  },
+                  "chart": {
+                    "actionButtons": true,
+                    "columns": [
+                      {
+                        "column_type": "field",
+                        "field": "Name",
+                        "label": "Name",
+                        "required": true,
+                        "type": "str"
+                      },
+                      {
+                        "column_type": "field",
+                        "field": "Comments",
+                        "label": "Comments",
+                        "required": true,
+                        "type": "str"
+                      },
+                      {
+                        "column_type": "field",
+                        "field": "TimeStamp",
+                        "label": "TimeStamp",
+                        "required": true,
+                        "type": "datetime"
+                      }
+                    ],
+                    "rowsPerPage": 5,
+                    "showHeader": true,
+                    "showPagination": true,
+                    "stripedRows": false
+                  },
+                  "class_list": [
+                    "table-component",
+                    "has-data-binding"
+                  ],
+                  "color": "#2c3e50",
+                  "data_binding": {
+                    "endpoint": "/comments/",
+                    "entity": "Comments"
+                  },
+                  "display_order": 4,
+                  "id": "ioj8df",
+                  "name": "Comments",
+                  "title": "Comments",
+                  "type": "table"
+                },
+                {
+                  "attributes": {
+                    "id": "iru6jv"
+                  },
+                  "children": [
+                    {
+                      "attributes": {
+                        "id": "i1lq9c"
+                      },
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "attributes": {
+                                "id": "i6xtqz"
+                              },
+                              "content": "About BESSER",
+                              "description": "Text element",
+                              "display_order": 0,
+                              "id": "i6xtqz",
+                              "name": "About BESSER",
+                              "tag": "h4",
+                              "type": "text"
+                            },
+                            {
+                              "attributes": {
+                                "id": "i2wbui"
+                              },
+                              "content": "BESSER is a low-code platform for building smarter software faster. Empower your development with our dashboard generator and modeling tools.",
+                              "description": "Text element",
+                              "display_order": 1,
+                              "id": "i2wbui",
+                              "name": "BESSER is a low-code platform for building smarter software faster. Empower your development with our dashboard generator and modeling tools.",
+                              "tag": "p",
+                              "type": "text"
+                            }
+                          ],
+                          "description": " component",
+                          "display_order": 0,
+                          "id": "Component",
+                          "name": "Component",
+                          "type": "container"
+                        },
+                        {
+                          "attributes": {
+                            "id": "i7jy7"
+                          },
+                          "children": [
+                            {
+                              "attributes": {
+                                "id": "imf0qz"
+                              },
+                              "content": "Quick Links",
+                              "description": "Text element",
+                              "display_order": 0,
+                              "id": "imf0qz",
+                              "name": "Quick Links",
+                              "tag": "h4",
+                              "type": "text"
+                            },
+                            {
+                              "attributes": {
+                                "id": "if21il"
+                              },
+                              "children": [
+                                {
+                                  "attributes": {
+                                    "id": "ipmphi"
+                                  },
+                                  "children": [
+                                    {
+                                      "attributes": {
+                                        "href": "/about",
+                                        "id": "i6pcpz"
+                                      },
+                                      "description": "Link element",
+                                      "display_order": 0,
+                                      "id": "i6pcpz",
+                                      "label": "About",
+                                      "name": "i6pcpz",
+                                      "tag": "a",
+                                      "type": "link",
+                                      "url": "/about"
+                                    }
+                                  ],
+                                  "description": "li container",
+                                  "display_order": 0,
+                                  "id": "ipmphi",
+                                  "name": "ipmphi",
+                                  "tag": "li",
+                                  "type": "container"
+                                }
+                              ],
+                              "description": "ul container",
+                              "display_order": 1,
+                              "id": "if21il",
+                              "name": "if21il",
+                              "tag": "ul",
+                              "type": "container"
+                            }
+                          ],
+                          "description": " component",
+                          "display_order": 1,
+                          "id": "i7jy7",
+                          "name": "i7jy7",
+                          "type": "container"
+                        },
+                        {
+                          "attributes": {
+                            "id": "i8puk"
+                          },
+                          "children": [
+                            {
+                              "attributes": {
+                                "id": "ij7xsi"
+                              },
+                              "content": "Provided by",
+                              "description": "Text element",
+                              "display_order": 0,
+                              "id": "ij7xsi",
+                              "name": "Provided by",
+                              "tag": "h4",
+                              "type": "text"
+                            },
+                            {
+                              "attributes": {
+                                "id": "ienpek"
+                              },
+                              "children": [
+                                {
+                                  "attributes": {
+                                    "id": "ijwexa"
+                                  },
+                                  "children": [
+                                    {
+                                      "alt": "Image component",
+                                      "attributes": {
+                                        "id": "ijges7",
+                                        "src": "https://snt-highlights.uni.lu/wp-content/uploads/sites/172/2022/01/SnT_UL_logo2020-1024x330.png"
+                                      },
+                                      "description": "Image component",
+                                      "display_order": 0,
+                                      "id": "ijges7",
+                                      "name": "ijges7",
+                                      "src": "https://snt-highlights.uni.lu/wp-content/uploads/sites/172/2022/01/SnT_UL_logo2020-1024x330.png",
+                                      "tag": "img",
+                                      "type": "image",
+                                      "class_list": ["navbar-logo"]
+                                    }
+                                  ],
+                                  "class_list": [
+                                    "gjs-cell"
+                                  ],
+                                  "description": " container",
+                                  "display_order": 0,
+                                  "id": "ijwexa",
+                                  "name": "ijwexa",
+                                  "type": "container"
+                                },
+                                {
+                                  "attributes": {
+                                    "id": "if4kfn"
+                                  },
+                                  "children": [
+                                    {
+                                      "alt": "Image component",
+                                      "attributes": {
+                                        "id": "in1sos",
+                                        "src": "https://living-in.eu/sites/default/files/images/luxembourg_list-from-website.png"
+                                      },
+                                      "description": "Image component",
+                                      "display_order": 0,
+                                      "id": "in1sos",
+                                      "name": "in1sos",
+                                      "src": "https://living-in.eu/sites/default/files/images/luxembourg_list-from-website.png",
+                                      "tag": "img",
+                                      "type": "image",
+                                      "class_list": ["navbar-logo"]
+                                    }
+                                  ],
+                                  "class_list": [
+                                    "gjs-cell"
+                                  ],
+                                  "description": " container",
+                                  "display_order": 1,
+                                  "id": "if4kfn",
+                                  "name": "if4kfn",
+                                  "type": "container"
+                                }
+                              ],
+                              "class_list": [
+                                "gjs-row"
+                              ],
+                              "description": " container",
+                              "display_order": 1,
+                              "id": "ienpek",
+                              "name": "ienpek",
+                              "type": "container"
+                            }
+                          ],
+                          "description": " component",
+                          "display_order": 2,
+                          "id": "i8puk",
+                          "name": "i8puk",
+                          "type": "container"
+                        }
+                      ],
+                      "description": " component",
+                      "display_order": 0,
+                      "id": "i1lq9c",
+                      "name": "i1lq9c",
+                      "type": "container"
+                    },
+                    {
+                      "attributes": {
+                        "id": "itwa7j"
+                      },
+                      "content": "© 2025 BESSER. All rights reserved.",
+                      "description": "Text element",
+                      "display_order": 1,
+                      "id": "itwa7j",
+                      "name": "© 2025 BESSER. All rights reserved.",
+                      "type": "text"
+                    }
+                  ],
+                  "description": "footer container",
+                  "display_order": 5,
+                  "id": "iru6jv",
+                  "name": "iru6jv",
+                  "tag": "footer",
+                  "type": "container"
+                }
+              ],
+              "class_list": [
+                "gjs-cell"
+              ],
+              "description": " container",
+              "display_order": 0,
+              "id": "if369",
+              "name": "if369",
+              "type": "container"
+            }
+          ],
+          "class_list": [
+            "gjs-row"
+          ],
+          "description": " container",
+          "display_order": 0,
+          "id": "iofcf",
+          "name": "iofcf",
+          "type": "container"
+        }
+      ],
+      "description": "Home",
+      "id": "7gx6FKvT6NwQwvkM",
+      "is_main": true,
+      "name": "Home",
+      "route_path": "/home"
+    },
+    {
+      "components": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "attributes": {
+                    "id": "ik1p2n"
+                  },
+                  "children": [
+                    {
+                      "alt": "Image component",
+                      "attributes": {
+                        "id": "ike5mt",
+                        "src": "https://api-frontassets.inwink.com/event/f4e18963-dc0e-f011-aaa8-000d3a48e9fe/asset/02338f0d-2a9a-f011-b485-6045bd941168/file/laif_rgb_negatif"
+                      },
+                      "description": "Image component",
+                      "display_order": 0,
+                      "id": "ike5mt",
+                      "name": "ike5mt",
+                      "src": "https://api-frontassets.inwink.com/event/f4e18963-dc0e-f011-aaa8-000d3a48e9fe/asset/02338f0d-2a9a-f011-b485-6045bd941168/file/laif_rgb_negatif",
+                      "tag": "img",
+                      "type": "image",
+                      "class_list": ["navbar-logo"]
+                    },
+                    {
+                      "attributes": {
+                        "id": "imxzkl"
+                      },
+                      "content": "AI Factories Dashboard",
+                      "description": "Text element",
+                      "display_order": 1,
+                      "id": "imxzkl",
+                      "name": "AI Factories Dashboard",
+                      "type": "text"
+                    },
+                    {
+                      "attributes": {
+                        "id": "inuifj"
+                      },
+                      "children": [
+                        {
+                          "attributes": {
+                            "href": "/",
+                            "id": "if7rxf"
+                          },
+                          "description": "Link element",
+                          "display_order": 0,
+                          "id": "if7rxf",
+                          "label": "Home",
+                          "name": "if7rxf",
+                          "tag": "a",
+                          "type": "link",
+                          "url": "/"
+                        },
+                        {
+                          "attributes": {
+                            "href": "/reports",
+                            "id": "i9f82f"
+                          },
+                          "description": "Link element",
+                          "display_order": 1,
+                          "id": "i9f82f",
+                          "label": "Reports",
+                          "name": "i9f82f",
+                          "tag": "a",
+                          "type": "link",
+                          "url": "/reports"
+                        },
+                        {
+                          "attributes": {
+                            "href": "/about",
+                            "id": "iobqi1"
+                          },
+                          "description": "Link element",
+                          "display_order": 2,
+                          "id": "iobqi1",
+                          "label": "Logs",
+                          "name": "iobqi1",
+                          "tag": "a",
+                          "type": "link",
+                          "url": "/about"
+                        },
+                        {
+                          "attributes": {
+                            "href": "/about",
+                            "id": "iixhid"
+                          },
+                          "description": "Link element",
+                          "display_order": 3,
+                          "id": "iixhid",
+                          "label": "About",
+                          "name": "iixhid",
+                          "tag": "a",
+                          "type": "link",
+                          "url": "/about"
+                        }
+                      ],
+                      "description": " component",
+                      "display_order": 2,
+                      "id": "inuifj",
+                      "name": "inuifj",
+                      "type": "container"
+                    }
+                  ],
+                  "description": "nav container",
+                  "display_order": 0,
+                  "id": "ik1p2n",
+                  "name": "ik1p2n",
+                  "tag": "nav",
+                  "type": "container"
+                },
+{
+  "id": "logs_root_container",
+  "type": "container",
+  "tag": "section",
+  "children": [
+    {
+      "children": [
+        {
+          "class_list": ["heading"],
+          "content": "Logs",
+          "id": "h1_3",
+          "tag": "h1",
+          "type": "text"
+        },
+        {
+          "class_list": ["paragraph"],
+          "content": "",
+          "id": "p_3",
+          "tag": "p",
+          "type": "text"
+        }
+      ],
+      "class_list": ["bdg-sect"],
+      "id": "container_section_3",
+      "tag": "section",
+      "type": "container"
+    },
+    {
+      "id": "audit_logs_table",
+      "type": "audit-logs",
+      "name": "Audit Logs",
+      "display_order": 2,
+      "data_binding": {
+        "endpoint": "/audit/logs"
+      }
+    }
+  ]
+},
+                {
+                  "children": [
+                    {
+                      "class_list": [
+                        "gjs-cell"
+                      ],
+                      "description": " container",
+                      "display_order": 0,
+                      "id": "container_cell_8",
+                      "name": "Cell 8",
+                      "type": "container"
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "class_list": [
+                                "gjs-cell"
+                              ],
+                              "description": " container",
+                              "display_order": 0,
+                              "id": "container_cell_10",
+                              "name": "Cell 10",
+                              "type": "container"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "action_type": "download",
+                                  "attributes": {
+                                      "type": "button",
+                                      "id": "it587g",
+                                      "label": "Download",
+                                      "action_type": "download",
+                                      "attributes": {
+                                        "type": "button",
+                                        "id": "it587g",
+                                        "button-label": "Download",
+                                        "download-url": "/download/logs",
+                                        "filename": "logs.txt"
+                                      }
+                                    },
+                                  "button_type": "Customizable Button",
+                                  "class_list": [
+                                    "action-button-component"
+                                  ],
+                                  "description": "Button component",
+                                  "display_order": 0,
+                                  "events": [
+                                    {
+                                      "actions": [
+                                        {
+                                          "description": "Navigate to custom",
+                                          "kind": "Transition",
+                                          "name": "navigate_to_custom",
+                                          "target_screen_id": "custom"
+                                        }
+                                      ],
+                                      "name": "onClick_ignume",
+                                      "type": "onClick"
+                                    }
+                                  ],
+                                  "id": "ignume",
+                                  "label": "Download",
+                                  "name": "ignume",
+                                  "tag": "button",
+                                  "type": "button"
+                                }
+                              ],
+                              "class_list": [
+                                "gjs-cell"
+                              ],
+                              "description": " container",
+                              "display_order": 1,
+                              "id": "container_cell_11",
+                              "name": "Cell 11",
+                              "type": "container"
+                            },
+                            {
+                              "class_list": [
+                                "gjs-cell"
+                              ],
+                              "description": " container",
+                              "display_order": 2,
+                              "id": "container_cell_12",
+                              "name": "Cell 12",
+                              "type": "container"
+                            }
+                          ],
+                          "class_list": [
+                            "gjs-row"
+                          ],
+                          "description": " container",
+                          "display_order": 0,
+                          "id": "container_row_3",
+                          "name": "Row 3",
+                          "type": "container"
+                        }
+                      ],
+                      "class_list": [
+                        "gjs-cell"
+                      ],
+                      "description": " container",
+                      "display_order": 1,
+                      "id": "container_cell_9",
+                      "name": "Cell 9",
+                      "type": "container"
+                    },
+                    {
+                      "attributes": {
+                        "id": "is5dnu"
+                      },
+                      "class_list": [
+                        "gjs-cell"
+                      ],
+                      "description": " container",
+                      "display_order": 2,
+                      "id": "is5dnu",
+                      "name": "is5dnu",
+                      "type": "container"
+                    }
+                  ],
+                  "class_list": [
+                    "gjs-row"
+                  ],
+                  "description": " container",
+                  "display_order": 2,
+                  "id": "container_row_2",
+                  "name": "Row 2",
+                  "type": "container"
+                },
+                {
+                  "attributes": {
+                    "id": "ioqiqp"
+                  },
+                  "children": [
+                    {
+                      "attributes": {
+                        "id": "i3u68q"
+                      },
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "attributes": {
+                                "id": "ipk5nh"
+                              },
+                              "content": "About BESSER",
+                              "description": "Text element",
+                              "display_order": 0,
+                              "id": "ipk5nh",
+                              "name": "About BESSER",
+                              "tag": "h4",
+                              "type": "text"
+                            },
+                            {
+                              "attributes": {
+                                "id": "iuwmze"
+                              },
+                              "content": "BESSER is a low-code platform for building smarter software faster. Empower your development with our dashboard generator and modeling tools.",
+                              "description": "Text element",
+                              "display_order": 1,
+                              "id": "iuwmze",
+                              "name": "BESSER is a low-code platform for building smarter software faster. Empower your development with our dashboard generator and modeling tools.",
+                              "tag": "p",
+                              "type": "text"
+                            }
+                          ],
+                          "description": " component",
+                          "display_order": 0,
+                          "id": "Component_6",
+                          "name": "Component 6",
+                          "type": "container"
+                        },
+                        {
+                          "children": [
+                            {
+                              "attributes": {
+                                "id": "iaf7j8"
+                              },
+                              "content": "Quick Links",
+                              "description": "Text element",
+                              "display_order": 0,
+                              "id": "iaf7j8",
+                              "name": "Quick Links",
+                              "tag": "h4",
+                              "type": "text"
+                            },
+                            {
+                              "attributes": {
+                                "id": "iq9e37"
+                              },
+                              "children": [
+                                {
+                                  "attributes": {
+                                    "id": "iikjbc"
+                                  },
+                                  "children": [
+                                    {
+                                      "attributes": {
+                                        "href": "/about",
+                                        "id": "ilihei"
+                                      },
+                                      "description": "Link element",
+                                      "display_order": 0,
+                                      "id": "ilihei",
+                                      "label": "About",
+                                      "name": "ilihei",
+                                      "tag": "a",
+                                      "type": "link",
+                                      "url": "/about"
+                                    }
+                                  ],
+                                  "description": "li container",
+                                  "display_order": 0,
+                                  "id": "iikjbc",
+                                  "name": "iikjbc",
+                                  "tag": "li",
+                                  "type": "container"
+                                }
+                              ],
+                              "description": "ul container",
+                              "display_order": 1,
+                              "id": "iq9e37",
+                              "name": "iq9e37",
+                              "tag": "ul",
+                              "type": "container"
+                            }
+                          ],
+                          "description": " component",
+                          "display_order": 1,
+                          "id": "Component_7",
+                          "name": "Component 7",
+                          "type": "container"
+                        },
+                        {
+                          "attributes": {
+                            "id": "in23ui"
+                          },
+                          "children": [
+                            {
+                              "attributes": {
+                                "id": "iyjzk2"
+                              },
+                              "content": "Provided by",
+                              "description": "Text element",
+                              "display_order": 0,
+                              "id": "iyjzk2",
+                              "name": "Provided by",
+                              "tag": "h4",
+                              "type": "text"
+                            },
+                            {
+                              "attributes": {
+                                "id": "i6b738"
+                              },
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "alt": "Image component",
+                                      "attributes": {
+                                        "id": "iaiffx",
+                                        "src": "https://snt-highlights.uni.lu/wp-content/uploads/sites/172/2022/01/SnT_UL_logo2020-1024x330.png"
+                                      },
+                                      "description": "Image component",
+                                      "display_order": 0,
+                                      "id": "iaiffx",
+                                      "name": "iaiffx",
+                                      "src": "https://snt-highlights.uni.lu/wp-content/uploads/sites/172/2022/01/SnT_UL_logo2020-1024x330.png",
+                                      "tag": "img",
+                                      "type": "image",
+                                      "class_list": ["navbar-logo"]
+                                    }
+                                  ],
+                                  "class_list": [
+                                    "gjs-cell"
+                                  ],
+                                  "description": " container",
+                                  "display_order": 0,
+                                  "id": "container_cell_13",
+                                  "name": "Cell 13",
+                                  "type": "container"
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "alt": "Image component",
+                                      "attributes": {
+                                        "id": "imr3uf",
+                                        "src": "https://living-in.eu/sites/default/files/images/luxembourg_list-from-website.png"
+                                      },
+                                      "description": "Image component",
+                                      "display_order": 0,
+                                      "id": "imr3uf",
+                                      "name": "imr3uf",
+                                      "src": "https://living-in.eu/sites/default/files/images/luxembourg_list-from-website.png",
+                                      "tag": "img",
+                                      "type": "image",
+                                      "class_list": ["navbar-logo"]
+                                    }
+                                  ],
+                                  "class_list": [
+                                    "gjs-cell"
+                                  ],
+                                  "description": " container",
+                                  "display_order": 1,
+                                  "id": "container_cell_14",
+                                  "name": "Cell 14",
+                                  "type": "container"
+                                }
+                              ],
+                              "class_list": [
+                                "gjs-row"
+                              ],
+                              "description": " container",
+                              "display_order": 1,
+                              "id": "i6b738",
+                              "name": "i6b738",
+                              "type": "container"
+                            }
+                          ],
+                          "description": " component",
+                          "display_order": 2,
+                          "id": "in23ui",
+                          "name": "in23ui",
+                          "type": "container"
+                        }
+                      ],
+                      "description": " component",
+                      "display_order": 0,
+                      "id": "i3u68q",
+                      "name": "i3u68q",
+                      "type": "container"
+                    },
+                    {
+                      "attributes": {
+                        "id": "iv60dt"
+                      },
+                      "content": "© 2025 BESSER. All rights reserved.",
+                      "description": "Text element",
+                      "display_order": 1,
+                      "id": "iv60dt",
+                      "name": "© 2025 BESSER. All rights reserved.",
+                      "type": "text"
+                    }
+                  ],
+                  "description": "footer container",
+                  "display_order": 3,
+                  "id": "ioqiqp",
+                  "name": "ioqiqp",
+                  "tag": "footer",
+                  "type": "container"
+                }
+              ],
+              "class_list": [
+                "gjs-cell"
+              ],
+              "description": " container",
+              "display_order": 0,
+              "id": "container_cell_7",
+              "name": "Cell 7",
+              "type": "container"
+            }
+          ],
+          "class_list": [
+            "gjs-row"
+          ],
+          "description": " container",
+          "display_order": 0,
+          "id": "container_row",
+          "name": "Row",
+          "type": "container"
+        }
+      ],
+      "description": "Logs",
+      "id": "logs-1769498864685",
+      "is_main": false,
+      "name": "Logs",
+      "route_path": "/logs"
+    },
+    {
+      "components": [
+        {
+          "attributes": {
+            "charset": "utf-8"
+          },
+          "description": "meta component",
+          "display_order": 0,
+          "id": "meta",
+          "name": "meta",
+          "tag": "meta",
+          "type": "component"
+        },
+        {
+          "attributes": {
+            "content": "width=device-width, initial-scale=1",
+            "name": "viewport"
+          },
+          "description": "meta component",
+          "display_order": 1,
+          "id": "viewport",
+          "name": "viewport",
+          "tag": "meta",
+          "type": "component"
+        },
+        {
+          "attributes": {
+            "charset": "utf-8"
+          },
+          "description": "meta component",
+          "display_order": 2,
+          "id": "meta_2",
+          "name": "meta 2",
+          "tag": "meta",
+          "type": "component"
+        },
+        {
+          "attributes": {
+            "content": "width=device-width, initial-scale=1",
+            "name": "viewport"
+          },
+          "description": "meta component",
+          "display_order": 3,
+          "id": "viewport_2",
+          "name": "viewport 2",
+          "tag": "meta",
+          "type": "component"
+        },
+        {
+          "attributes": {
+            "id": "i5jh-2"
+          },
+          "children": [
+            {
+              "attributes": {
+                "id": "io07-2"
+              },
+              "content": "BESSER",
+              "description": "Text element",
+              "display_order": 0,
+              "id": "io07-2",
+              "name": "BESSER",
+              "type": "text"
+            },
+            {
+              "attributes": {
+                "id": "inp2m-2"
+              },
+              "children": [
+                {
+                  "attributes": {
+                    "href": "/",
+                    "id": "ibtww-2"
+                  },
+                  "description": "Link element",
+                  "display_order": 0,
+                  "id": "ibtww-2",
+                  "label": "Home",
+                  "name": "ibtww 2",
+                  "tag": "a",
+                  "type": "link",
+                  "url": "/"
+                },
+                {
+                  "attributes": {
+                    "href": "/reports",
+                    "id": "ild7j-2"
+                  },
+                  "description": "Link element",
+                  "display_order": 1,
+                  "id": "ild7j-2",
+                  "label": "Reports",
+                  "name": "ild7j 2",
+                  "tag": "a",
+                  "type": "link",
+                  "url": "/reports"
+                },
+                {
+                  "attributes": {
+                    "href": "/logs",
+                    "id": "ild7j-2-2"
+                  },
+                  "description": "Link element",
+                  "display_order": 2,
+                  "id": "ild7j-2-2",
+                  "label": "Logs",
+                  "name": "ild7j 2 2",
+                  "tag": "a",
+                  "type": "link",
+                  "url": "/logs"
+                },
+                {
+                  "attributes": {
+                    "href": "/about",
+                    "id": "ild7j-2-2-2"
+                  },
+                  "description": "Link element",
+                  "display_order": 3,
+                  "id": "ild7j-2-2-2",
+                  "label": "About",
+                  "name": "ild7j 2 2 2",
+                  "tag": "a",
+                  "type": "link",
+                  "url": "/about"
+                }
+              ],
+              "description": " component",
+              "display_order": 1,
+              "id": "inp2m-2",
+              "name": "inp2m 2",
+              "type": "container"
+            }
+          ],
+          "description": "nav container",
+          "display_order": 4,
+          "id": "i5jh-2",
+          "name": "i5jh 2",
+          "tag": "nav",
+          "type": "container"
+        },
+        {
+          "attributes": {
+            "id": "ihhucw"
+          },
+          "children": [
+            {
+              "attributes": {
+                "id": "izn0d4"
+              },
+              "children": [
+                {
+                  "attributes": {
+                    "id": "iarech"
+                  },
+                  "content": "Build Smarter Dashboards Faster with BESSER",
+                  "description": "Text element",
+                  "display_order": 0,
+                  "id": "iarech",
+                  "name": "Build Smarter Dashboards Faster with BESSER",
+                  "tag": "h2",
+                  "type": "text"
+                },
+                {
+                  "attributes": {
+                    "id": "iznkht"
+                  },
+                  "content": "Create interactive dashboards effortlessly and streamline your workflow with BESSER's low-code platform.",
+                  "description": "Text element",
+                  "display_order": 1,
+                  "id": "iznkht",
+                  "name": "Create interactive dashboards effortlessly and streamline your workflow with BESSER's low-code platform.",
+                  "tag": "p",
+                  "type": "text"
+                },
+                {
+                  "attributes": {
+                    "id": "i45e9h"
+                  },
+                  "children": [
+                    {
+                      "action_type": "navigate",
+                      "attributes": {
+                        "id": "i6qufd"
+                      },
+                      "button_type": "Customizable Button",
+                      "description": "Button component",
+                      "display_order": 0,
+                      "id": "i6qufd",
+                      "label": "Try Dashboard Generator",
+                      "name": "i6qufd",
+                      "tag": "button",
+                      "type": "button"
+                    },
+                    {
+                      "action_type": "navigate",
+                      "attributes": {
+                        "id": "ih7y3i"
+                      },
+                      "button_type": "Customizable Button",
+                      "description": "Button component",
+                      "display_order": 1,
+                      "id": "ih7y3i",
+                      "label": "Explore Features",
+                      "name": "ih7y3i",
+                      "tag": "button",
+                      "type": "button"
+                    }
+                  ],
+                  "description": " component",
+                  "display_order": 2,
+                  "id": "i45e9h",
+                  "name": "i45e9h",
+                  "type": "container"
+                }
+              ],
+              "description": " component",
+              "display_order": 0,
+              "id": "izn0d4",
+              "name": "izn0d4",
+              "type": "container"
+            }
+          ],
+          "description": "section container",
+          "display_order": 5,
+          "id": "ihhucw",
+          "name": "ihhucw",
+          "tag": "section",
+          "type": "container"
+        },
+        {
+          "attributes": {
+            "id": "i94ykd"
+          },
+          "children": [
+            {
+              "attributes": {
+                "id": "imjpfb"
+              },
+              "children": [
+                {
+                  "attributes": {
+                    "id": "ixhdf8"
+                  },
+                  "content": "Our Features",
+                  "description": "Text element",
+                  "display_order": 0,
+                  "id": "ixhdf8",
+                  "name": "Our Features",
+                  "tag": "h2",
+                  "type": "text"
+                },
+                {
+                  "attributes": {
+                    "id": "ifzwsk"
+                  },
+                  "children": [
+                    {
+                      "attributes": {
+                        "id": "ilfh9s"
+                      },
+                      "children": [
+                        {
+                          "attributes": {
+                            "id": "iwznrk"
+                          },
+                          "content": "🚀",
+                          "description": "Text element",
+                          "display_order": 0,
+                          "id": "iwznrk",
+                          "name": "🚀",
+                          "type": "text"
+                        },
+                        {
+                          "attributes": {
+                            "id": "it8x1g"
+                          },
+                          "content": "Fast Performance",
+                          "description": "Text element",
+                          "display_order": 1,
+                          "id": "it8x1g",
+                          "name": "Fast Performance",
+                          "tag": "h3",
+                          "type": "text"
+                        },
+                        {
+                          "attributes": {
+                            "id": "iccbeg"
+                          },
+                          "content": "Lightning-fast loading times and smooth interactions for the best user experience.",
+                          "description": "Text element",
+                          "display_order": 2,
+                          "id": "iccbeg",
+                          "name": "Lightning-fast loading times and smooth interactions for the best user experience.",
+                          "tag": "p",
+                          "type": "text"
+                        }
+                      ],
+                      "description": " component",
+                      "display_order": 1,
+                      "id": "ilfh9s",
+                      "name": "ilfh9s",
+                      "type": "container"
+                    },
+                    {
+                      "attributes": {
+                        "id": "ixjufm"
+                      },
+                      "children": [
+                        {
+                          "attributes": {
+                            "id": "i7pg38"
+                          },
+                          "content": "🔒",
+                          "description": "Text element",
+                          "display_order": 0,
+                          "id": "i7pg38",
+                          "name": "🔒",
+                          "type": "text"
+                        },
+                        {
+                          "attributes": {
+                            "id": "it7eyx"
+                          },
+                          "content": "Secure & Safe",
+                          "description": "Text element",
+                          "display_order": 1,
+                          "id": "it7eyx",
+                          "name": "Secure & Safe",
+                          "tag": "h3",
+                          "type": "text"
+                        },
+                        {
+                          "attributes": {
+                            "id": "izcgig"
+                          },
+                          "content": "Enterprise-grade security to protect your data and ensure privacy.",
+                          "description": "Text element",
+                          "display_order": 2,
+                          "id": "izcgig",
+                          "name": "Enterprise-grade security to protect your data and ensure privacy.",
+                          "tag": "p",
+                          "type": "text"
+                        }
+                      ],
+                      "description": " component",
+                      "display_order": 3,
+                      "id": "ixjufm",
+                      "name": "ixjufm",
+                      "type": "container"
+                    },
+                    {
+                      "attributes": {
+                        "id": "ie4pxe"
+                      },
+                      "children": [
+                        {
+                          "attributes": {
+                            "id": "ih9198"
+                          },
+                          "content": "📱",
+                          "description": "Text element",
+                          "display_order": 0,
+                          "id": "ih9198",
+                          "name": "📱",
+                          "type": "text"
+                        },
+                        {
+                          "attributes": {
+                            "id": "ii2qto"
+                          },
+                          "content": "Resp Design",
+                          "description": "Text element",
+                          "display_order": 1,
+                          "id": "ii2qto",
+                          "name": "Resp Design",
+                          "tag": "h3",
+                          "type": "text"
+                        },
+                        {
+                          "attributes": {
+                            "id": "itzqqe"
+                          },
+                          "content": "Works perfectly on all devices - desktop, tablet, and mobile.",
+                          "description": "Text element",
+                          "display_order": 2,
+                          "id": "itzqqe",
+                          "name": "Works perfectly on all devices - desktop, tablet, and mobile.",
+                          "tag": "p",
+                          "type": "text"
+                        }
+                      ],
+                      "description": " component",
+                      "display_order": 5,
+                      "id": "ie4pxe",
+                      "name": "ie4pxe",
+                      "type": "container"
+                    }
+                  ],
+                  "description": " component",
+                  "display_order": 1,
+                  "id": "ifzwsk",
+                  "name": "ifzwsk",
+                  "type": "container"
+                }
+              ],
+              "description": " component",
+              "display_order": 0,
+              "id": "imjpfb",
+              "name": "imjpfb",
+              "type": "container"
+            }
+          ],
+          "description": "section container",
+          "display_order": 6,
+          "id": "i94ykd",
+          "name": "i94ykd",
+          "tag": "section",
+          "type": "container"
+        },
+        {
+          "attributes": {
+            "id": "ictst-2"
+          },
+          "children": [
+            {
+              "attributes": {
+                "id": "i8uhg-2"
+              },
+              "children": [
+                {
+                  "children": [
+                    {
+                      "attributes": {
+                        "id": "i3p8x-2"
+                      },
+                      "content": "About BESSER",
+                      "description": "Text element",
+                      "display_order": 0,
+                      "id": "i3p8x-2",
+                      "name": "About BESSER",
+                      "tag": "h4",
+                      "type": "text"
+                    },
+                    {
+                      "attributes": {
+                        "id": "i9x6g-2"
+                      },
+                      "content": "BESSER is a low-code platform for building smarter software faster. Empower your development with our dashboard generator and modeling tools.",
+                      "description": "Text element",
+                      "display_order": 1,
+                      "id": "i9x6g-2",
+                      "name": "BESSER is a low-code platform for building smarter software faster. Empower your development with our dashboard generator and modeling tools.",
+                      "tag": "p",
+                      "type": "text"
+                    }
+                  ],
+                  "description": " component",
+                  "display_order": 0,
+                  "id": "Component_2",
+                  "name": "Component 2",
+                  "type": "container"
+                },
+                {
+                  "children": [
+                    {
+                      "attributes": {
+                        "id": "iybmm-2"
+                      },
+                      "content": "Quick Links",
+                      "description": "Text element",
+                      "display_order": 0,
+                      "id": "iybmm-2",
+                      "name": "Quick Links",
+                      "tag": "h4",
+                      "type": "text"
+                    },
+                    {
+                      "attributes": {
+                        "id": "im0xi-2"
+                      },
+                      "children": [
+                        {
+                          "attributes": {
+                            "id": "ichrl-2"
+                          },
+                          "children": [
+                            {
+                              "attributes": {
+                                "href": "#",
+                                "id": "i0wq2-2"
+                              },
+                              "description": "Link element",
+                              "display_order": 0,
+                              "id": "i0wq2-2",
+                              "label": "Dashboard Generator",
+                              "name": "i0wq2 2",
+                              "tag": "a",
+                              "type": "link",
+                              "url": "#"
+                            }
+                          ],
+                          "description": "li container",
+                          "display_order": 0,
+                          "id": "ichrl-2",
+                          "name": "ichrl 2",
+                          "tag": "li",
+                          "type": "container"
+                        },
+                        {
+                          "attributes": {
+                            "id": "ixtnt-2"
+                          },
+                          "children": [
+                            {
+                              "attributes": {
+                                "href": "#",
+                                "id": "i2f1j-2"
+                              },
+                              "description": "Link element",
+                              "display_order": 0,
+                              "id": "i2f1j-2",
+                              "label": "API Reference",
+                              "name": "i2f1j 2",
+                              "tag": "a",
+                              "type": "link",
+                              "url": "#"
+                            }
+                          ],
+                          "description": "li container",
+                          "display_order": 1,
+                          "id": "ixtnt-2",
+                          "name": "ixtnt 2",
+                          "tag": "li",
+                          "type": "container"
+                        },
+                        {
+                          "attributes": {
+                            "id": "irxsn-2"
+                          },
+                          "children": [
+                            {
+                              "attributes": {
+                                "href": "#",
+                                "id": "inu9a-2"
+                              },
+                              "description": "Link element",
+                              "display_order": 0,
+                              "id": "inu9a-2",
+                              "label": "Support",
+                              "name": "inu9a 2",
+                              "tag": "a",
+                              "type": "link",
+                              "url": "#"
+                            }
+                          ],
+                          "description": "li container",
+                          "display_order": 2,
+                          "id": "irxsn-2",
+                          "name": "irxsn 2",
+                          "tag": "li",
+                          "type": "container"
+                        }
+                      ],
+                      "description": "ul container",
+                      "display_order": 1,
+                      "id": "im0xi-2",
+                      "name": "im0xi 2",
+                      "tag": "ul",
+                      "type": "container"
+                    }
+                  ],
+                  "description": " component",
+                  "display_order": 1,
+                  "id": "Component_3",
+                  "name": "Component 3",
+                  "type": "container"
+                },
+                {
+                  "attributes": {
+                    "id": "iberth"
+                  },
+                  "children": [
+                    {
+                      "attributes": {
+                        "id": "igd5a-2"
+                      },
+                      "content": "Contact",
+                      "description": "Text element",
+                      "display_order": 0,
+                      "id": "igd5a-2",
+                      "name": "Contact",
+                      "tag": "h4",
+                      "type": "text"
+                    },
+                    {
+                      "attributes": {
+                        "id": "itmu2-2"
+                      },
+                      "content": "Email: info@besser-pearl.org",
+                      "description": "Text element",
+                      "display_order": 1,
+                      "id": "itmu2-2",
+                      "name": "Email: info@besser-pearl.org",
+                      "tag": "p",
+                      "type": "text"
+                    }
+                  ],
+                  "description": " component",
+                  "display_order": 2,
+                  "id": "iberth",
+                  "name": "iberth",
+                  "type": "container"
+                }
+              ],
+              "description": " component",
+              "display_order": 0,
+              "id": "i8uhg-2",
+              "name": "i8uhg 2",
+              "type": "container"
+            },
+            {
+              "attributes": {
+                "id": "iph4d-2"
+              },
+              "content": "© 2025 BESSER. All rights reserved.",
+              "description": "Text element",
+              "display_order": 1,
+              "id": "iph4d-2",
+              "name": "© 2025 BESSER. All rights reserved.",
+              "type": "text"
+            }
+          ],
+          "description": "footer container",
+          "display_order": 7,
+          "id": "ictst-2",
+          "name": "ictst 2",
+          "tag": "footer",
+          "type": "container"
+        },
+        {
+          "attributes": {
+            "id": "iiqx6-2"
+          },
+          "class_list": [
+            "gjs-row"
+          ],
+          "description": " component",
+          "display_order": 8,
+          "id": "iiqx6-2",
+          "name": "iiqx6 2",
+          "type": "component"
+        },
+        {
+          "attributes": {
+            "id": "is6fi-2"
+          },
+          "class_list": [
+            "gjs-row"
+          ],
+          "description": " component",
+          "display_order": 9,
+          "id": "is6fi-2",
+          "name": "is6fi 2",
+          "type": "component"
+        }
+      ],
+      "description": "About",
+      "id": "HWrxLpPdBSm60elV",
+      "is_main": false,
+      "name": "About",
+      "route_path": "/about"
+    },
+    {
+      "components": [
+        {
+          "attributes": {
+            "id": "i4jqdy"
+          },
+          "children": [
+            {
+              "attributes": {
+                "id": "i738zb"
+              },
+              "children": [
+                {
+                  "attributes": {
+                    "id": "inv0co"
+                  },
+                  "children": [
+                    {
+                      "alt": "Image component",
+                      "attributes": {
+                        "id": "ihjv3l",
+                        "src": "https://api-frontassets.inwink.com/event/f4e18963-dc0e-f011-aaa8-000d3a48e9fe/asset/02338f0d-2a9a-f011-b485-6045bd941168/file/laif_rgb_negatif"
+                      },
+                      "description": "Image component",
+                      "display_order": 0,
+                      "id": "ihjv3l",
+                      "name": "ihjv3l",
+                      "src": "https://api-frontassets.inwink.com/event/f4e18963-dc0e-f011-aaa8-000d3a48e9fe/asset/02338f0d-2a9a-f011-b485-6045bd941168/file/laif_rgb_negatif",
+                      "tag": "img",
+                      "type": "image",
+                      "class_list": ["navbar-logo"]
+                    },
+                    {
+                      "attributes": {
+                        "id": "idq5uq"
+                      },
+                      "content": "AI Factories Dashboard",
+                      "description": "Text element",
+                      "display_order": 1,
+                      "id": "idq5uq",
+                      "name": "AI Factories Dashboard",
+                      "type": "text"
+                    },
+                    {
+                      "attributes": {
+                        "id": "idvruc"
+                      },
+                      "children": [
+                        {
+                          "attributes": {
+                            "href": "/",
+                            "id": "ibootd"
+                          },
+                          "description": "Link element",
+                          "display_order": 0,
+                          "id": "ibootd",
+                          "label": "Home",
+                          "name": "ibootd",
+                          "tag": "a",
+                          "type": "link",
+                          "url": "/"
+                        },
+                        {
+                          "attributes": {
+                            "href": "/reports",
+                            "id": "ib1d91"
+                          },
+                          "description": "Link element",
+                          "display_order": 1,
+                          "id": "ib1d91",
+                          "label": "Reports",
+                          "name": "ib1d91",
+                          "tag": "a",
+                          "type": "link",
+                          "url": "/reports"
+                        },
+                        {
+                          "attributes": {
+                            "href": "/logs",
+                            "id": "istsfw"
+                          },
+                          "description": "Link element",
+                          "display_order": 2,
+                          "id": "istsfw",
+                          "label": "Logs",
+                          "name": "istsfw",
+                          "tag": "a",
+                          "type": "link",
+                          "url": "/logs"
+                        },
+                        {
+                          "attributes": {
+                            "href": "/about",
+                            "id": "iy002t"
+                          },
+                          "description": "Link element",
+                          "display_order": 3,
+                          "id": "iy002t",
+                          "label": "About",
+                          "name": "iy002t",
+                          "tag": "a",
+                          "type": "link",
+                          "url": "/about"
+                        }
+                      ],
+                      "description": " component",
+                      "display_order": 2,
+                      "id": "idvruc",
+                      "name": "idvruc",
+                      "type": "container"
+                    }
+                  ],
+                  "description": "nav container",
+                  "display_order": 0,
+                  "id": "inv0co",
+                  "name": "inv0co",
+                  "tag": "nav",
+                  "type": "container"
+                },
+                {
+                  "children": [
+                    {
+                      "class_list": [
+                        "heading"
+                      ],
+                      "content": "Download Report",
+                      "description": "Text element",
+                      "display_order": 0,
+                      "id": "h1_2",
+                      "name": "Download Report",
+                      "tag": "h1",
+                      "type": "text"
+                    },
+                    {
+                      "class_list": [
+                        "paragraph"
+                      ],
+                      "content": "Here you can download the report in pdf format based off of the dashboard.",
+                      "description": "Text element",
+                      "display_order": 1,
+                      "id": "p_2",
+                      "name": "Here you can download the report in pdf format based off of the dashboard.",
+                      "tag": "p",
+                      "type": "text"
+                    }
+                  ],
+                  "class_list": [
+                    "bdg-sect"
+                  ],
+                  "description": "section container",
+                  "display_order": 1,
+                  "id": "container_section_2",
+                  "name": "section 2",
+                  "tag": "section",
+                  "type": "container"
+                },
+                {
+                  "attributes": {
+                    "id": "ixti82"
+                  },
+                  "children": [
+                    {
+                      "class_list": [
+                        "gjs-cell"
+                      ],
+                      "description": " container",
+                      "display_order": 0,
+                      "id": "container_cell",
+                      "name": "Cell",
+                      "type": "container"
+                    },
+                    {
+                      "attributes": {
+                        "id": "i3fydx"
+                      },
+                      "children": [
+                        {
+                          "attributes": {
+                            "id": "ihx5ph"
+                          },
+                          "children": [
+                            {
+                              "class_list": [
+                                "gjs-cell"
+                              ],
+                              "description": " container",
+                              "display_order": 0,
+                              "id": "container_cell_2",
+                              "name": "Cell 2",
+                              "type": "container"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "action_type": "download",
+                                  "attributes": {
+                                      "type": "button",
+                                      "id": "it587g",
+                                      "label": "Download",
+                                      "action_type": "download",
+                                      "attributes": {
+                                        "type": "button",
+                                        "id": "it587g",
+                                    "button-label": "Download",
+                                        "download-url": "/download/reports",
+                                        "filename": "reports.pdf"
+                                      }
+                                  },
+                                  "button_type": "Customizable Button",
+                                  "class_list": [
+                                    "action-button-component"
+                                  ],
+                                  "description": "Button component",
+                                  "display_order": 0,
+                                  "events": [
+                                    {
+                                      "actions": [
+                                        {
+                                          "description": "Navigate to custom",
+                                          "kind": "Transition",
+                                          "name": "navigate_to_custom",
+                                          "target_screen_id": "custom"
+                                        }
+                                      ],
+                                      "name": "onClick_it587g",
+                                      "type": "onClick"
+                                    }
+                                  ],
+                                  "id": "it587g",
+                                  "label": "Download",
+                                  "name": "it587g",
+                                  "tag": "button",
+                                  "type": "button"
+                                }
+                              ],
+                              "class_list": [
+                                "gjs-cell"
+                              ],
+                              "description": " container",
+                              "display_order": 1,
+                              "id": "container_cell_3",
+                              "name": "Cell 3",
+                              "type": "container"
+                            },
+                            {
+                              "class_list": [
+                                "gjs-cell"
+                              ],
+                              "description": " container",
+                              "display_order": 2,
+                              "id": "container_cell_4",
+                              "name": "Cell 4",
+                              "type": "container"
+                            }
+                          ],
+                          "class_list": [
+                            "gjs-row"
+                          ],
+                          "description": " container",
+                          "display_order": 0,
+                          "id": "ihx5ph",
+                          "name": "ihx5ph",
+                          "type": "container"
+                        }
+                      ],
+                      "class_list": [
+                        "gjs-cell"
+                      ],
+                      "description": " container",
+                      "display_order": 1,
+                      "id": "i3fydx",
+                      "name": "i3fydx",
+                      "type": "container"
+                    },
+                    {
+                      "attributes": {
+                        "id": "i7vtpt"
+                      },
+                      "class_list": [
+                        "gjs-cell"
+                      ],
+                      "description": " container",
+                      "display_order": 2,
+                      "id": "i7vtpt",
+                      "name": "i7vtpt",
+                      "type": "container"
+                    }
+                  ],
+                  "class_list": [
+                    "gjs-row"
+                  ],
+                  "description": " container",
+                  "display_order": 2,
+                  "id": "ixti82",
+                  "name": "ixti82",
+                  "type": "container"
+                },
+                {
+                  "attributes": {
+                    "id": "ixw9d1"
+                  },
+                  "children": [
+                    {
+                      "attributes": {
+                        "id": "iey2wl"
+                      },
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "attributes": {
+                                "id": "imbdjx"
+                              },
+                              "content": "About BESSER",
+                              "description": "Text element",
+                              "display_order": 0,
+                              "id": "imbdjx",
+                              "name": "About BESSER",
+                              "tag": "h4",
+                              "type": "text"
+                            },
+                            {
+                              "attributes": {
+                                "id": "ifahib"
+                              },
+                              "content": "BESSER is a low-code platform for building smarter software faster. Empower your development with our dashboard generator and modeling tools.",
+                              "description": "Text element",
+                              "display_order": 1,
+                              "id": "ifahib",
+                              "name": "BESSER is a low-code platform for building smarter software faster. Empower your development with our dashboard generator and modeling tools.",
+                              "tag": "p",
+                              "type": "text"
+                            }
+                          ],
+                          "description": " component",
+                          "display_order": 0,
+                          "id": "Component_4",
+                          "name": "Component 4",
+                          "type": "container"
+                        },
+                        {
+                          "children": [
+                            {
+                              "attributes": {
+                                "id": "iaanmj"
+                              },
+                              "content": "Quick Links",
+                              "description": "Text element",
+                              "display_order": 0,
+                              "id": "iaanmj",
+                              "name": "Quick Links",
+                              "tag": "h4",
+                              "type": "text"
+                            },
+                            {
+                              "attributes": {
+                                "id": "iq4qph"
+                              },
+                              "children": [
+                                {
+                                  "attributes": {
+                                    "id": "illibi"
+                                  },
+                                  "children": [
+                                    {
+                                      "attributes": {
+                                        "href": "/about",
+                                        "id": "i06pxh"
+                                      },
+                                      "description": "Link element",
+                                      "display_order": 0,
+                                      "id": "i06pxh",
+                                      "label": "About",
+                                      "name": "i06pxh",
+                                      "tag": "a",
+                                      "type": "link",
+                                      "url": "/about"
+                                    }
+                                  ],
+                                  "description": "li container",
+                                  "display_order": 0,
+                                  "id": "illibi",
+                                  "name": "illibi",
+                                  "tag": "li",
+                                  "type": "container"
+                                }
+                              ],
+                              "description": "ul container",
+                              "display_order": 1,
+                              "id": "iq4qph",
+                              "name": "iq4qph",
+                              "tag": "ul",
+                              "type": "container"
+                            }
+                          ],
+                          "description": " component",
+                          "display_order": 1,
+                          "id": "Component_5",
+                          "name": "Component 5",
+                          "type": "container"
+                        },
+                        {
+                          "attributes": {
+                            "id": "inibj8"
+                          },
+                          "children": [
+                            {
+                              "attributes": {
+                                "id": "i1b7um"
+                              },
+                              "content": "Provided by",
+                              "description": "Text element",
+                              "display_order": 0,
+                              "id": "i1b7um",
+                              "name": "Provided by",
+                              "tag": "h4",
+                              "type": "text"
+                            },
+                            {
+                              "attributes": {
+                                "id": "isrrhh"
+                              },
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "alt": "Image component",
+                                      "attributes": {
+                                        "id": "ibvpsj",
+                                        "src": "https://snt-highlights.uni.lu/wp-content/uploads/sites/172/2022/01/SnT_UL_logo2020-1024x330.png"
+                                      },
+                                      "description": "Image component",
+                                      "display_order": 0,
+                                      "id": "ibvpsj",
+                                      "name": "ibvpsj",
+                                      "src": "https://snt-highlights.uni.lu/wp-content/uploads/sites/172/2022/01/SnT_UL_logo2020-1024x330.png",
+                                      "tag": "img",
+                                      "type": "image",
+                                      "class_list": ["navbar-logo"]
+                                    }
+                                  ],
+                                  "class_list": [
+                                    "gjs-cell"
+                                  ],
+                                  "description": " container",
+                                  "display_order": 0,
+                                  "id": "container_cell_5",
+                                  "name": "Cell 5",
+                                  "type": "container"
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "alt": "Image component",
+                                      "attributes": {
+                                        "id": "i7ktg7",
+                                        "src": "https://living-in.eu/sites/default/files/images/luxembourg_list-from-website.png"
+                                      },
+                                      "description": "Image component",
+                                      "display_order": 0,
+                                      "id": "i7ktg7",
+                                      "name": "i7ktg7",
+                                      "src": "https://living-in.eu/sites/default/files/images/luxembourg_list-from-website.png",
+                                      "tag": "img",
+                                      "type": "image",
+                                      "class_list": ["navbar-logo"]
+                                    }
+                                  ],
+                                  "class_list": [
+                                    "gjs-cell"
+                                  ],
+                                  "description": " container",
+                                  "display_order": 1,
+                                  "id": "container_cell_6",
+                                  "name": "Cell 6",
+                                  "type": "container"
+                                }
+                              ],
+                              "class_list": [
+                                "gjs-row"
+                              ],
+                              "description": " container",
+                              "display_order": 1,
+                              "id": "isrrhh",
+                              "name": "isrrhh",
+                              "type": "container"
+                            }
+                          ],
+                          "description": " component",
+                          "display_order": 2,
+                          "id": "inibj8",
+                          "name": "inibj8",
+                          "type": "container"
+                        }
+                      ],
+                      "description": " component",
+                      "display_order": 0,
+                      "id": "iey2wl",
+                      "name": "iey2wl",
+                      "type": "container"
+                    },
+                    {
+                      "attributes": {
+                        "id": "iaf8d5"
+                      },
+                      "content": "© 2025 BESSER. All rights reserved.",
+                      "description": "Text element",
+                      "display_order": 1,
+                      "id": "iaf8d5",
+                      "name": "© 2025 BESSER. All rights reserved.",
+                      "type": "text"
+                    }
+                  ],
+                  "description": "footer container",
+                  "display_order": 3,
+                  "id": "ixw9d1",
+                  "name": "ixw9d1",
+                  "tag": "footer",
+                  "type": "container"
+                }
+              ],
+              "class_list": [
+                "gjs-cell"
+              ],
+              "description": " container",
+              "display_order": 0,
+              "id": "i738zb",
+              "name": "i738zb",
+              "type": "container"
+            }
+          ],
+          "class_list": [
+            "gjs-row"
+          ],
+          "description": " container",
+          "display_order": 0,
+          "id": "i4jqdy",
+          "name": "i4jqdy",
+          "type": "container"
+        }
+      ],
+      "description": "Reports",
+      "id": "reports-1769421003722",
+      "is_main": false,
+      "name": "Reports",
+      "route_path": "/reports"
+    }
+  ]
+}

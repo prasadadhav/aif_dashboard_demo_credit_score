@@ -17,7 +17,6 @@ interface Props {
     data_field?: string;
     aggregation?: string;
   };
-  styles?: CSSProperties;
 }
 
 // Format value based on format type
@@ -43,6 +42,11 @@ const formatValue = (value: number, format: string): string => {
   }
 };
 
+// Format trend display
+const formatTrend = (trend: number): string => {
+  const sign = trend >= 0 ? "↑" : "↓";
+  return `${sign} ${Math.abs(trend)}% from last month`;
+};
 
 export const MetricCardComponent: React.FC<Props> = ({
   id,
@@ -56,10 +60,12 @@ export const MetricCardComponent: React.FC<Props> = ({
   value = 0,
   trend = 0,
   data_binding,
-  styles,
 }) => {
-    // TODO: Uncomment when backend aggregation is ready
-  // const displayValue = data_binding?.entity
+  // Display data binding info if available
+  const hasDataBinding = data_binding && data_binding.entity;
+  
+  // TODO: Uncomment when backend aggregation is ready
+  // const displayValue = hasDataBinding
   //   ? `${data_binding.aggregation?.toUpperCase() || "SUM"}(${
   //       data_binding.data_field || "field"
   //     })`
@@ -80,7 +86,6 @@ export const MetricCardComponent: React.FC<Props> = ({
     display: "flex",
     flexDirection: "column",
     justifyContent: "space-between",
-    ...styles,
   };
 
   return (
