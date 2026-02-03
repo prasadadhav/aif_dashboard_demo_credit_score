@@ -197,58 +197,44 @@
                           "id": "ikj6y7",
                           "name": "Line Chart",
                           "series": [
-  {
-    "color": "#f51313",
-    "dataField": "value",
-    "dataSource": "credit",
-    "endpoint": "/credit/drift/jensenshannon",
-    "label": "purpose",
-    "labelField": "date",
-    "name": "purpose",
-    "filter": "feature == \"purpose\""
-  },
-  {
-    "color": "#00bcd4",
-    "dataField": "value",
-    "dataSource": "credit",
-    "endpoint": "/credit/drift/jensenshannon",
-    "label": "home_ownership",
-    "labelField": "date",
-    "name": "home_ownership",
-    "filter": "feature == \"home_ownership\""
-  },
-  {
-    "color": "#4caf50",
-    "dataField": "value",
-    "dataSource": "credit",
-    "endpoint": "/credit/drift/jensenshannon",
-    "label": "verification_status",
-    "labelField": "date",
-    "name": "verification_status",
-    "filter": "feature == \"verification_status\""
-  },
-  {
-    "color": "#ff9800",
-    "dataField": "value",
-    "dataSource": "credit",
-    "endpoint": "/credit/drift/jensenshannon",
-    "label": "initial_list_status",
-    "labelField": "date",
-    "name": "initial_list_status",
-    "filter": "feature == \"initial_list_status\""
-  },
-  {
-    "color": "#9c27b0",
-    "dataField": "value",
-    "dataSource": "credit",
-    "endpoint": "/credit/drift/jensenshannon",
-    "label": "application_type",
-    "labelField": "date",
-    "name": "application_type",
-    "filter": "feature == \"application_type\""
-  }
-                          ],
-                          "title": "Line Chart",
+                          {
+                            "color": "#f51313",
+                            "dataField": "annual_inc",
+                            "dataSource": "credit",
+                            "endpoint": "/charts/credit/drift/wasserstein",
+                            "label": "annual_inc",
+                            "labelField": "whenObserved",
+                            "name": "annual_inc"
+                          },
+                          {
+                            "color": "#00bcd4",
+                            "dataField": "revol_bal",
+                            "dataSource": "credit",
+                            "endpoint": "/charts/credit/drift/wasserstein",
+                            "label": "revol_bal",
+                            "labelField": "whenObserved",
+                            "name": "revol_bal"
+                          },
+                          {
+                            "color": "#4caf50",
+                            "dataField": "loan_amnt",
+                            "dataSource": "credit",
+                            "endpoint": "/charts/credit/drift/wasserstein",
+                            "label": "loan_amnt",
+                            "labelField": "whenObserved",
+                            "name": "loan_amnt"
+                          },
+                          {
+                            "color": "#ff9800",
+                            "dataField": "installment",
+                            "dataSource": "credit",
+                            "endpoint": "/charts/credit/drift/wasserstein",
+                            "label": "installment",
+                            "labelField": "whenObserved",
+                            "name": "installment"
+                          }
+                        ],
+                          "title": "Wasserstein Drift Line Chart",
                           "type": "line-chart"
                         }
                       ],
@@ -261,140 +247,100 @@
                       "name": "ixa3hr",
                       "type": "container"
                     },
+
                     {
                       "attributes": {
-                        "id": "iznull"
+                        "id": "ixa3hr"
                       },
                       "children": [
                         {
                           "attributes": {
-                            "bar-width": "30",
-                            "chart-color": "#3498db",
-                            "chart-title": "Bar Chart",
-                            "id": "icsdfx",
-                            "orientation": "vertical",
+                            "animate": "true",
+                            "chart-color": "#4CAF50",
+                            "chart-title": "Line Chart",
+                            "curve-type": "monotone",
+                            "id": "ikj6y7",
+                            "line-width": "2",
                             "show-grid": "true",
                             "show-legend": "true",
-                            "stacked": "false"
-                          },
-                          "chart": {
-                            "animate": true,
-                            "barGap": 4,
-                            "barWidth": 30,
-                            "gridColor": "#e0e0e0",
-                            "legendPosition": "top",
-                            "orientation": "vertical",
-                            "showGrid": true,
-                            "showLegend": true,
-                            "showTooltip": true,
-                            "stacked": false
-                          },
-                          "class_list": [
-                            "bar-chart-component"
-                          ],
-                          "color": "#3498db",
-                          "display_order": 0,
-                          "id": "icsdfx",
-                          "name": "Bar Chart",
-                          "series": [
-                            {
-                              "color": "#f51313",
-                              "dataField": "measures.value",
-                              "dataSource": "metric",
-                              "endpoint": "/metric/",
-                              "label": "Mistral",
-                              "labelField": "name",
-                              "name": "Mistral",
-                              "filter": "model_name == \"Mistral\""
-                            },
-                            {
-                              "color": "#7e29ff",
-                              "dataField": "measures.value",
-                              "dataSource": "metric",
-                              "endpoint": "/metric/",
-                              "label": "Claude 3.5 Sonnet 2",
-                              "labelField": "name",
-                              "name": "Claude 3.5 Sonnet",
-                              "filter": "model_name == \"Claude 3.5 Sonnet\""
-                            }
-                          ],
-                          "title": "Bar Chart",
-                          "type": "bar-chart"
-                        }
-                      ],
-                      "class_list": [
-                        "gjs-cell"
-                      ],
-                      "description": " component",
-                      "display_order": 1,
-                      "id": "iznull",
-                      "name": "iznull",
-                      "type": "container"
-                    },
-                    {
-                      "attributes": {
-                        "id": "ik39ra"
-                      },
-                      "children": [
-                        {
-                          "attributes": {
-                            "chart-color": "#8884d8",
-                            "chart-title": "Radar Chart",
-                            "id": "iy2apa",
-                            "show-grid": "true",
-                            "show-radius-axis": "true",
                             "show-tooltip": "true"
                           },
                           "chart": {
-                            "dotSize": 3,
-                            "gridType": "polygon",
+                            "animate": true,
+                            "curveType": "monotone",
+                            "dotSize": 5,
+                            "gridColor": "#e0e0e0",
                             "legendPosition": "top",
+                            "lineWidth": 2,
                             "showGrid": true,
                             "showLegend": true,
-                            "showRadiusAxis": true,
-                            "showTooltip": true,
-                            "strokeWidth": 2
+                            "showTooltip": true
                           },
                           "class_list": [
-                            "radar-chart-component"
+                            "line-chart-component"
                           ],
-                          "color": "#8884d8",
+                          "color": "#4CAF50",
                           "display_order": 0,
-                          "id": "iy2apa",
-                          "name": "Radar Chart",
+                          "id": "ikj6y7",
+                          "name": "Line Chart",
                           "series": [
-                            {
-                              "color": "#4CAF50",
-                              "dataField": "measures.value",
-                              "dataSource": "metric",
-                              "endpoint": "/metric/",
-                              "label": "Mistral",
-                              "labelField": "name",
-                              "name": "Mistral",
-                              "filter": "model_name == \"Mistral\""
-                            },
-                            {
-                              "color": "#2196F3",
-                              "dataField": "measures.value",
-                              "dataSource": "metric",
-                              "endpoint": "/metric/",
-                              "label": "Claude 3.5 Sonnet 2",
-                              "labelField": "name",
-                              "name": "Claude 3.5 Sonnet",
-                              "filter": "model_name == \"Claude 3.5 Sonnet\""
-                            }
-                          ],
-                          "title": "Radar Chart",
-                          "type": "radar-chart"
+  {
+    "color": "#f51313",
+    "dataField": "purpose",
+    "dataSource": "credit",
+    "endpoint": "/charts/credit/drift/jensenshannon",
+    "label": "purpose",
+    "labelField": "whenObserved",
+    "name": "purpose"
+  },
+  {
+    "color": "#00bcd4",
+    "dataField": "home_ownership",
+    "dataSource": "credit",
+    "endpoint": "/charts/credit/drift/jensenshannon",
+    "label": "home_ownership",
+    "labelField": "whenObserved",
+    "name": "home_ownership"
+  },
+  {
+    "color": "#4caf50",
+    "dataField": "verification_status",
+    "dataSource": "credit",
+    "endpoint": "/charts/credit/drift/jensenshannon",
+    "label": "verification_status",
+    "labelField": "whenObserved",
+    "name": "verification_status"
+  },
+  {
+    "color": "#ff9800",
+    "dataField": "initial_list_status",
+    "dataSource": "credit",
+    "endpoint": "/charts/credit/drift/jensenshannon",
+    "label": "initial_list_status",
+    "labelField": "whenObserved",
+    "name": "initial_list_status"
+  },
+  {
+    "color": "#9c27b0",
+    "dataField": "application_type",
+    "dataSource": "credit",
+    "endpoint": "/charts/credit/drift/jensenshannon",
+    "label": "application_type",
+    "labelField": "whenObserved",
+    "name": "application_type"
+  }
+],
+                          "title": "Jensen-Shannon Drift Line Chart",
+                          "type": "line-chart"
                         }
                       ],
                       "class_list": [
                         "gjs-cell"
                       ],
                       "description": " component",
-                      "display_order": 2,
-                      "id": "ik39ra",
-                      "name": "ik39ra",
+                      "display_order": 0,
+                      "id": "ixa3hr",
+                      "name": "ixa3hr",
                       "type": "container"
                     }
                   ],
