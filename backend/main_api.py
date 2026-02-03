@@ -8847,7 +8847,7 @@ def chart_credit_model_performance(database: Session = Depends(get_db)):
     q = (
         text("""
             SELECT
-                substr(o.whenObserved, 1, 19) AS whenObserved,
+                substr(o.whenObserved, 1, 10) AS whenObserved,
                 mt.name AS series,
                 CAST(ms.value AS REAL) AS value
             FROM measure ms
@@ -8869,7 +8869,7 @@ def chart_credit_model_performance(database: Session = Depends(get_db)):
 def chart_credit_drift_js(database: Session = Depends(get_db)):
     q = text("""
         SELECT
-            substr(o.whenObserved, 1, 19) AS whenObserved,
+            substr(o.whenObserved, 1, 10) AS whenObserved,
             e.name AS series,
             CAST(ms.value AS REAL) AS value
         FROM measure ms
@@ -8889,7 +8889,7 @@ def chart_credit_drift_js(database: Session = Depends(get_db)):
 def chart_credit_drift_wasserstein(database: Session = Depends(get_db)):
     q = text("""
         SELECT
-            substr(o.whenObserved, 1, 19) AS whenObserved,
+            substr(o.whenObserved, 1, 10) AS whenObserved,
             e.name AS series,
             CAST(ms.value AS REAL) AS value
         FROM measure ms

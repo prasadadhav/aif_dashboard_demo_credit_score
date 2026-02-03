@@ -225,7 +225,14 @@ export const LineChartComponent: React.FC<Props> = ({
       <ResponsiveContainer width="100%" height={360}>
         <LineChart data={mergedData} margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
           {showGrid && <CartesianGrid strokeDasharray="3 3" stroke={options?.gridColor} />}
-          <XAxis dataKey="name" />
+          <XAxis
+            dataKey={labelField}
+            angle={-45}
+            textAnchor="end"
+            height={80}
+            interval={0}
+          />
+
           <YAxis />
           {showTooltip && <Tooltip />}
           {showLegend && <Legend verticalAlign={legendPosition} content={renderLegend} />}
