@@ -8821,76 +8821,94 @@ def download_audit_logs(format: str = Query("csv", enum=["csv", "txt"])):
 #------------------------------------------
 #               SnT API
 #------------------------------------------
-@app.get("/credit/model_performance_timeseries", tags=["Credit"], response_model=List[Dict[str, Any]])
-def credit_model_performance_timeseries(database: Session = Depends(get_db)) -> List[Dict[str, Any]]:
+def _pivot_wide(rows: List[Dict[str, Any]], index_key: str, series_key: str, value_key: str) -> List[Dict[str, Any]]:
     """
-    Returns tidy rows:
-      [{date: "...", metric: "Accuracy", value: 0.86}, ...]
-    Assumes:
-      - values live in measure.value
-      - measure.metric_id -> metric.id (metric.name = 'Accuracy', 'ROCAUC', etc.)
-      - measure.observation_id -> observation.id (observation.whenObserved is the x-axis)
-      - measure.measurand_id -> element.id, where element.type_spec='model'
+    rows: [{"whenObserved": "...", "series": "Accuracy", "value": 0.87}, ...]
+    -> [{"whenObserved": "...", "Accuracy": 0.87, ...}, ...]
     """
-    rows = database.execute(text("""
+    by_index: Dict[str, Dict[str, Any]] = {}
+    for r in rows:
+        idx = r[index_key]
+        s = r[series_key]
+        v = r[value_key]
+        if idx not in by_index:
+            by_index[idx] = {index_key: idx}
+        by_index[idx][s] = v
+    # sort by timestamp string (ISO sortable)
+    return [by_index[k] for k in sorted(by_index.keys())]
+
+
+from sqlalchemy import text, bindparam
+
+@app.get("/charts/credit/model_performance", tags=["Charts"])
+def chart_credit_model_performance(database: Session = Depends(get_db)):
+    perf_metrics = ["ROCAUC", "Accuracy", "MCC", "F1", "Precision", "Recall"]
+
+    q = (
+        text("""
+            SELECT
+                substr(o.whenObserved, 1, 19) AS whenObserved,
+                mt.name AS series,
+                CAST(ms.value AS REAL) AS value
+            FROM measure ms
+            JOIN metric mt ON mt.id = ms.metric_id
+            JOIN observation o ON o.id = ms.observation_id
+            JOIN element e ON e.id = ms.measurand_id
+            WHERE mt.name IN :perf
+              AND e.type_spec = 'model'
+            ORDER BY o.whenObserved ASC
+        """)
+        .bindparams(bindparam("perf", expanding=True))
+    )
+
+    rows = database.execute(q, {"perf": perf_metrics}).mappings().all()
+    return _pivot_wide(list(rows), "whenObserved", "series", "value")
+
+
+
+@app.get("/charts/credit/drift/jensenshannon", tags=["Charts"])
+def chart_credit_drift_js(database: Session = Depends(get_db)):
+    q = text("""
         SELECT
-            o.whenObserved AS date,
-            mt.name        AS metric,
-            CAST(m.value AS FLOAT) AS value
-        FROM measure m
-        JOIN observation o ON o.id = m.observation_id
-        JOIN metric mt     ON mt.id = m.metric_id
-        JOIN element e     ON e.id = m.measurand_id
-        WHERE e.type_spec = 'model'
-          AND mt.name IN ('ROCAUC','Accuracy','MCC','F1','Precision','Recall')
-        ORDER BY o.whenObserved ASC, mt.name ASC
-    """)).mappings().all()
+            substr(o.whenObserved, 1, 19) AS whenObserved,
+            e.name AS series,
+            CAST(ms.value AS REAL) AS value
+        FROM measure ms
+        JOIN metric mt ON mt.id = ms.metric_id
+        JOIN observation o ON o.id = ms.observation_id
+        JOIN element e ON e.id = ms.measurand_id
+        WHERE mt.name = 'jensenshannon'
+          AND e.type_spec = 'feature'
+        ORDER BY o.whenObserved ASC
+    """)
+    rows = database.execute(q).mappings().all()
+    return _pivot_wide(list(rows), "whenObserved", "series", "value")
 
-    return [dict(r) for r in rows]
 
 
-
-@app.get("/credit/drift/jensenshannon", tags=["Credit"], response_model=List[Dict[str, Any]])
-def credit_drift_jensenshannon(database: Session = Depends(get_db)) -> List[Dict[str, Any]]:
-    """
-    Returns tidy rows:
-      [{date: "...", feature: "purpose", value: 0.13}, ...]
-    Assumes element.type_spec='feature' for feature measurands.
-    """
-    rows = database.execute(text("""
+@app.get("/charts/credit/drift/wasserstein", tags=["Charts"])
+def chart_credit_drift_wasserstein(database: Session = Depends(get_db)):
+    q = text("""
         SELECT
-            o.whenObserved AS date,
-            e.name         AS feature,
-            CAST(m.value AS FLOAT) AS value
-        FROM measure m
-        JOIN observation o ON o.id = m.observation_id
-        JOIN metric mt     ON mt.id = m.metric_id
-        JOIN element e     ON e.id = m.measurand_id
-        WHERE e.type_spec = 'feature'
-          AND mt.name = 'jensenshannon'
-        ORDER BY o.whenObserved ASC, e.name ASC
-    """)).mappings().all()
+            substr(o.whenObserved, 1, 19) AS whenObserved,
+            e.name AS series,
+            CAST(ms.value AS REAL) AS value
+        FROM measure ms
+        JOIN metric mt ON mt.id = ms.metric_id
+        JOIN observation o ON o.id = ms.observation_id
+        JOIN element e ON e.id = ms.measurand_id
+        WHERE mt.name = 'wasserstein_distance'
+          AND e.type_spec = 'feature'
+        ORDER BY o.whenObserved ASC
+    """)
+    rows = database.execute(q).mappings().all()
+    return _pivot_wide(list(rows), "whenObserved", "series", "value")
 
-    return [dict(r) for r in rows]
 
 
-@app.get("/credit/drift/wasserstein", tags=["Credit"], response_model=List[Dict[str, Any]])
-def credit_drift_wasserstein(database: Session = Depends(get_db)) -> List[Dict[str, Any]]:
-    rows = database.execute(text("""
-        SELECT
-            o.whenObserved AS date,
-            e.name         AS feature,
-            CAST(m.value AS FLOAT) AS value
-        FROM measure m
-        JOIN observation o ON o.id = m.observation_id
-        JOIN metric mt     ON mt.id = m.metric_id
-        JOIN element e     ON e.id = m.measurand_id
-        WHERE e.type_spec = 'feature'
-          AND mt.name = 'wasserstein_distance'
-        ORDER BY o.whenObserved ASC, e.name ASC
-    """)).mappings().all()
 
-    return [dict(r) for r in rows]
+
+
 
 
 
