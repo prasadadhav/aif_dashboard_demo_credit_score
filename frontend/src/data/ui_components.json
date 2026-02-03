@@ -125,11 +125,11 @@
                       "class_list": [
                         "heading"
                       ],
-                      "content": "LLM's tested on the INL CEFR language tests",
+                      "content": "Credit Score rating based on ML model",
                       "description": "Text element",
                       "display_order": 0,
                       "id": "h1",
-                      "name": "LLM's tested on the INL CEFR language tests",
+                      "name": "Credit Score rating based on ML model",
                       "tag": "h1",
                       "type": "text"
                     },
@@ -137,11 +137,11 @@
                       "class_list": [
                         "paragraph"
                       ],
-                      "content": "Here the LLM's are tested on the official Luxembourgish CEFR language tests by INL.",
+                      "content": "The ML model is trained on different features & different parameters.",
                       "description": "Text element",
                       "display_order": 1,
                       "id": "p",
-                      "name": "Here the LLM's are tested on the official Luxembourgish CEFR language tests by INL.",
+                      "name": "The ML model is trained on different features & different parameters.",
                       "tag": "p",
                       "type": "text"
                     }
@@ -197,26 +197,56 @@
                           "id": "ikj6y7",
                           "name": "Line Chart",
                           "series": [
-                            {
-                              "color": "#f51313",
-                              "dataField": "measures.value",
-                              "dataSource": "metric",
-                              "endpoint": "/metric/",
-                              "label": "Mistral",
-                              "labelField": "name",
-                              "name": "Mistral",
-                              "filter": "model_name == \"Mistral\""
-                            },
-                            {
-                              "color": "#7e29ff",
-                              "dataField": "measures.value",
-                              "dataSource": "metric",
-                              "endpoint": "/metric/",
-                              "label": "Claude 3.5 Sonnet 2",
-                              "labelField": "name",
-                              "name": "Claude 3.5 Sonnet",
-                              "filter": "model_name == \"Claude 3.5 Sonnet\""
-                            }
+  {
+    "color": "#f51313",
+    "dataField": "value",
+    "dataSource": "credit",
+    "endpoint": "/credit/drift/jensenshannon",
+    "label": "purpose",
+    "labelField": "date",
+    "name": "purpose",
+    "filter": "feature == \"purpose\""
+  },
+  {
+    "color": "#00bcd4",
+    "dataField": "value",
+    "dataSource": "credit",
+    "endpoint": "/credit/drift/jensenshannon",
+    "label": "home_ownership",
+    "labelField": "date",
+    "name": "home_ownership",
+    "filter": "feature == \"home_ownership\""
+  },
+  {
+    "color": "#4caf50",
+    "dataField": "value",
+    "dataSource": "credit",
+    "endpoint": "/credit/drift/jensenshannon",
+    "label": "verification_status",
+    "labelField": "date",
+    "name": "verification_status",
+    "filter": "feature == \"verification_status\""
+  },
+  {
+    "color": "#ff9800",
+    "dataField": "value",
+    "dataSource": "credit",
+    "endpoint": "/credit/drift/jensenshannon",
+    "label": "initial_list_status",
+    "labelField": "date",
+    "name": "initial_list_status",
+    "filter": "feature == \"initial_list_status\""
+  },
+  {
+    "color": "#9c27b0",
+    "dataField": "value",
+    "dataSource": "credit",
+    "endpoint": "/credit/drift/jensenshannon",
+    "label": "application_type",
+    "labelField": "date",
+    "name": "application_type",
+    "filter": "feature == \"application_type\""
+  }
                           ],
                           "title": "Line Chart",
                           "type": "line-chart"
