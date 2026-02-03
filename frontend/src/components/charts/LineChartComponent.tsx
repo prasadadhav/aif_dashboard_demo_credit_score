@@ -8,6 +8,7 @@ import {
   Tooltip,
   XAxis,
   YAxis,
+  Brush
 } from "recharts";
 
 interface SeriesConfig {
@@ -224,6 +225,7 @@ export const LineChartComponent: React.FC<Props> = ({
       {title && <h3 style={{ textAlign: "center", marginBottom: "10px" }}>{title}</h3>}
       <ResponsiveContainer width="100%" height={360}>
         <LineChart data={mergedData} margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
+
           {showGrid && <CartesianGrid strokeDasharray="3 3" stroke={options?.gridColor} />}
           <XAxis
             dataKey={labelField}
@@ -249,6 +251,12 @@ export const LineChartComponent: React.FC<Props> = ({
               hide={hiddenSeries.has(s.name)}
             />
           ))}
+          <Brush
+                dataKey={labelField}
+                height={30}
+                stroke="#8884d8"
+                travellerWidth={10}
+              />
         </LineChart>
       </ResponsiveContainer>
     </div>
