@@ -156,6 +156,128 @@
                   "tag": "section",
                   "type": "container"
                 },
+
+{
+                  "attributes": {
+                    "id": "idd2yg"
+                  },
+                  "children": [
+                    {
+                      "attributes": {
+                        "id": "ixa3hr"
+                      },
+                      "children": [
+                        {
+                          "attributes": {
+                            "animate": "true",
+                            "chart-color": "#4CAF50",
+                            "chart-title": "Line Chart",
+                            "curve-type": "monotone",
+                            "id": "ikj6y7",
+                            "line-width": "2",
+                            "show-grid": "true",
+                            "show-legend": "true",
+                            "show-tooltip": "true"
+                          },
+                          "chart": {
+                            "animate": true,
+                            "curveType": "monotone",
+                            "dotSize": 5,
+                            "gridColor": "#e0e0e0",
+                            "legendPosition": "top",
+                            "lineWidth": 2,
+                            "showGrid": true,
+                            "showLegend": true,
+                            "showTooltip": true
+                          },
+                          "class_list": [
+                            "line-chart-component"
+                          ],
+                          "color": "#4CAF50",
+                          "display_order": 0,
+                          "id": "ikj6y7",
+                          "name": "Line Chart",
+                          "series": [
+                            {
+                              "color": "#f51313",
+                              "dataField": "ROCAUC",
+                              "dataSource": "credit",
+                              "endpoint": "/charts/credit/model_performance",
+                              "label": "ROCAUC",
+                              "labelField": "whenObserved",
+                              "name": "ROCAUC"
+                            },
+                            {
+                              "color": "#00bcd4",
+                              "dataField": "Accuracy",
+                              "dataSource": "credit",
+                              "endpoint": "/charts/credit/model_performance",
+                              "label": "Accuracy",
+                              "labelField": "whenObserved",
+                              "name": "Accuracy"
+                            },
+                            {
+                              "color": "#4caf50",
+                              "dataField": "MCC",
+                              "dataSource": "credit",
+                              "endpoint": "/charts/credit/model_performance",
+                              "label": "MCC",
+                              "labelField": "whenObserved",
+                              "name": "MCC"
+                            },
+                            {
+                              "color": "#ff9800",
+                              "dataField": "F1",
+                              "dataSource": "credit",
+                              "endpoint": "/charts/credit/model_performance",
+                              "label": "F1",
+                              "labelField": "whenObserved",
+                              "name": "F1"
+                            },
+                            {
+                              "color": "#9c27b0",
+                              "dataField": "Precision",
+                              "dataSource": "credit",
+                              "endpoint": "/charts/credit/model_performance",
+                              "label": "Precision",
+                              "labelField": "whenObserved",
+                              "name": "Precision"
+                            },
+                            {
+                              "color": "#7e29ff",
+                              "dataField": "Recall",
+                              "dataSource": "credit",
+                              "endpoint": "/charts/credit/model_performance",
+                              "label": "Recall",
+                              "labelField": "whenObserved",
+                              "name": "Recall"
+                            }
+                          ],
+                          "title": "Model Performance Drift Line Chart",
+                          "type": "line-chart"
+                        }
+                      ],
+                      "class_list": [
+                        "gjs-cell"
+                      ],
+                      "description": " component",
+                      "display_order": 0,
+                      "id": "ixa3hr",
+                      "name": "ixa3hr",
+                      "type": "container"
+                    }
+                  ],
+                  "class_list": [
+                    "gjs-row"
+                  ],
+                  "description": " component",
+                  "display_order": 2,
+                  "id": "idd2yg",
+                  "name": "idd2yg",
+                  "type": "container"
+                },
+
+
                 {
                   "attributes": {
                     "id": "idd2yg"
@@ -284,52 +406,52 @@
                           "id": "ikj6y7",
                           "name": "Line Chart",
                           "series": [
-  {
-    "color": "#f51313",
-    "dataField": "purpose",
-    "dataSource": "credit",
-    "endpoint": "/charts/credit/drift/jensenshannon",
-    "label": "purpose",
-    "labelField": "whenObserved",
-    "name": "purpose"
-  },
-  {
-    "color": "#00bcd4",
-    "dataField": "home_ownership",
-    "dataSource": "credit",
-    "endpoint": "/charts/credit/drift/jensenshannon",
-    "label": "home_ownership",
-    "labelField": "whenObserved",
-    "name": "home_ownership"
-  },
-  {
-    "color": "#4caf50",
-    "dataField": "verification_status",
-    "dataSource": "credit",
-    "endpoint": "/charts/credit/drift/jensenshannon",
-    "label": "verification_status",
-    "labelField": "whenObserved",
-    "name": "verification_status"
-  },
-  {
-    "color": "#ff9800",
-    "dataField": "initial_list_status",
-    "dataSource": "credit",
-    "endpoint": "/charts/credit/drift/jensenshannon",
-    "label": "initial_list_status",
-    "labelField": "whenObserved",
-    "name": "initial_list_status"
-  },
-  {
-    "color": "#9c27b0",
-    "dataField": "application_type",
-    "dataSource": "credit",
-    "endpoint": "/charts/credit/drift/jensenshannon",
-    "label": "application_type",
-    "labelField": "whenObserved",
-    "name": "application_type"
-  }
-],
+                          {
+                            "color": "#f51313",
+                            "dataField": "purpose",
+                            "dataSource": "credit",
+                            "endpoint": "/charts/credit/drift/jensenshannon",
+                            "label": "purpose",
+                            "labelField": "whenObserved",
+                            "name": "purpose"
+                          },
+                          {
+                            "color": "#00bcd4",
+                            "dataField": "home_ownership",
+                            "dataSource": "credit",
+                            "endpoint": "/charts/credit/drift/jensenshannon",
+                            "label": "home_ownership",
+                            "labelField": "whenObserved",
+                            "name": "home_ownership"
+                          },
+                          {
+                            "color": "#4caf50",
+                            "dataField": "verification_status",
+                            "dataSource": "credit",
+                            "endpoint": "/charts/credit/drift/jensenshannon",
+                            "label": "verification_status",
+                            "labelField": "whenObserved",
+                            "name": "verification_status"
+                          },
+                          {
+                            "color": "#ff9800",
+                            "dataField": "initial_list_status",
+                            "dataSource": "credit",
+                            "endpoint": "/charts/credit/drift/jensenshannon",
+                            "label": "initial_list_status",
+                            "labelField": "whenObserved",
+                            "name": "initial_list_status"
+                          },
+                          {
+                            "color": "#9c27b0",
+                            "dataField": "application_type",
+                            "dataSource": "credit",
+                            "endpoint": "/charts/credit/drift/jensenshannon",
+                            "label": "application_type",
+                            "labelField": "whenObserved",
+                            "name": "application_type"
+                          }
+                        ],
                           "title": "Jensen-Shannon Drift Line Chart",
                           "type": "line-chart"
                         }

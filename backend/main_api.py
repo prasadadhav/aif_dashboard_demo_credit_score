@@ -8853,9 +8853,7 @@ def chart_credit_model_performance(database: Session = Depends(get_db)):
             FROM measure ms
             JOIN metric mt ON mt.id = ms.metric_id
             JOIN observation o ON o.id = ms.observation_id
-            JOIN element e ON e.id = ms.measurand_id
             WHERE mt.name IN :perf
-              AND e.type_spec = 'model'
             ORDER BY o.whenObserved ASC
         """)
         .bindparams(bindparam("perf", expanding=True))
@@ -8863,6 +8861,7 @@ def chart_credit_model_performance(database: Session = Depends(get_db)):
 
     rows = database.execute(q, {"perf": perf_metrics}).mappings().all()
     return _pivot_wide(list(rows), "whenObserved", "series", "value")
+
 
 
 
