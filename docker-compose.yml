@@ -19,7 +19,7 @@ services:
     ports:
       - "8000:8000"
     volumes:
-      - sqlite_data:/app/data
+      - sqlite_data_snt:/app/data
 
 
   immudb:
@@ -55,10 +55,10 @@ services:
 #   # Volumes montés pour exécuter les tests
 #   volumes:
 #     - ./backend:/app
-#     - sqlite_data:/app/data
+#     - sqlite_data_snt:/app/data
 
 
 volumes:
-  sqlite_data:
+  sqlite_data_snt:
   immudb_data:
 
