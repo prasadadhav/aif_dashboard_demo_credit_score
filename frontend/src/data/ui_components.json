@@ -36,11 +36,11 @@
                       "attributes": {
                         "id": "i8eko"
                       },
-                      "content": "AI Factories Credit Rating Dashboard",
+                      "content": "Credit Rating Dashboard",
                       "description": "Text element",
                       "display_order": 1,
                       "id": "i8eko",
-                      "name": "AI Factories Credit Rating Dashboard",
+                      "name": "Credit Rating Dashboard",
                       "type": "text"
                     },
                     {
@@ -173,7 +173,7 @@
                   "type": "container"
                 },
 
-{
+                {
                   "attributes": {
                     "id": "idd2yg"
                   },
@@ -183,6 +183,7 @@
                         "id": "ixa3hr"
                       },
                       "children": [
+
                         {
                           "attributes": {
                             "animate": "true",
@@ -272,6 +273,7 @@
                           "title": "Model Performance Drift Line Chart",
                           "type": "line-chart"
                         }
+
                       ],
                       "class_list": [
                         "gjs-cell"
@@ -823,6 +825,11 @@
                   "title": "Comments",
                   "type": "table"
                 },
+
+
+
+
+
                 {
                   "attributes": {
                     "id": "iru6jv"
@@ -1055,6 +1062,7 @@
                   "tag": "footer",
                   "type": "container"
                 }
+
               ],
               "class_list": [
                 "gjs-cell"
@@ -1112,11 +1120,11 @@
                       "attributes": {
                         "id": "imxzkl"
                       },
-                      "content": "AI Factories Credit Rating Dashboard",
+                      "content": "Credit Rating Dashboard",
                       "description": "Text element",
                       "display_order": 1,
                       "id": "imxzkl",
-                      "name": "AI Factories Credit Rating Dashboard",
+                      "name": "Credit Rating Dashboard",
                       "type": "text"
                     },
                     {
@@ -1211,46 +1219,50 @@
                   "tag": "nav",
                   "type": "container"
                 },
-{
-  "id": "logs_root_container",
-  "type": "container",
-  "tag": "section",
-  "children": [
-    {
-      "children": [
-        {
-          "class_list": ["heading"],
-          "content": "Logs",
-          "id": "h1_3",
-          "tag": "h1",
-          "type": "text"
-        },
-        {
-          "class_list": ["paragraph"],
-          "content": "",
-          "id": "p_3",
-          "tag": "p",
-          "type": "text"
-        }
-      ],
-      "class_list": ["bdg-sect"],
-      "id": "container_section_3",
-      "tag": "section",
-      "type": "container"
-    },
-    {
-      "id": "audit_logs_table",
-      "type": "audit-logs",
-      "name": "Audit Logs",
-      "display_order": 2,
-      "data_binding": {
-        "endpoint": "/audit/logs"
-      }
-    }
-  ]
-},
+                {
+                  "id": "logs_root_container",
+                  "type": "container",
+                  "tag": "section",
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "class_list": ["heading"],
+                          "content": "Logs",
+                          "id": "h1_3",
+                          "tag": "h1",
+                          "type": "text"
+                        },
+                        {
+                          "class_list": ["paragraph"],
+                          "content": "",
+                          "id": "p_3",
+                          "tag": "p",
+                          "type": "text"
+                        }
+                      ],
+                      "class_list": ["bdg-sect"],
+                      "id": "container_section_3",
+                      "tag": "section",
+                      "type": "container"
+                    },
+                    {
+                      "id": "audit_logs_table",
+                      "type": "audit-logs",
+                      "name": "Audit Logs",
+                      "display_order": 2,
+                      "data_binding": {
+                        "endpoint": "/audit/logs"
+                      }
+                    }
+                  ]
+                },
+
+
                 {
                   "children": [
+
+
                     {
                       "class_list": [
                         "gjs-cell"
@@ -1261,6 +1273,9 @@
                       "name": "Cell 8",
                       "type": "container"
                     },
+
+
+
                     {
                       "children": [
                         {
@@ -1358,6 +1373,9 @@
                       "name": "Cell 9",
                       "type": "container"
                     },
+
+
+
                     {
                       "attributes": {
                         "id": "is5dnu"
@@ -1371,6 +1389,9 @@
                       "name": "is5dnu",
                       "type": "container"
                     }
+
+                    
+
                   ],
                   "class_list": [
                     "gjs-row"
@@ -1384,276 +1405,6 @@
 
 
 
-                {
-                  "attributes": {
-                    "id": "i75sw8"
-                  },
-                  "children": [
-                    {
-                      "attributes": {
-                        "id": "icu0vc"
-                      },
-                      "children": [
-                        {
-                          "attributes": {
-                            "id": "iip80d"
-                          },
-                          "children": [
-                            {
-                              "attributes": {
-                                "id": "ij8249"
-                              },
-                              "content": "Analytics Dashboard",
-                              "description": "Text element",
-                              "display_order": 0,
-                              "id": "ij8249",
-                              "name": "Analytics Dashboard",
-                              "tag": "h1",
-                              "type": "text"
-                            },
-                            {
-                              "attributes": {
-                                "id": "iqomwa"
-                              },
-                              "content": "Key insights and metrics",
-                              "description": "Text element",
-                              "display_order": 1,
-                              "id": "iqomwa",
-                              "name": "Key insights and metrics",
-                              "tag": "p",
-                              "type": "text"
-                            }
-                          ],
-                          "description": " component",
-                          "display_order": 1,
-                          "id": "iip80d",
-                          "name": "iip80d",
-                          "type": "container"
-                        },
-                        {
-                          "attributes": {
-                            "id": "im3mgi"
-                          },
-                          "children": [
-                            {
-                              "attributes": {
-                                "data-field": "75923b12-6486-4ae8-aef0-2b81f96f665b",
-                                "data-source": "16a4766d-cdc1-4e69-b582-014ad2bada56",
-                                "format": "number",
-                                "id": "iy7zsy",
-                                "metric-title": "Model Families tested",
-                                "negative-color": "#e74c3c",
-                                "positive-color": "#27ae60",
-                                "show-trend": true,
-                                "value-color": "#2c3e50",
-                                "value-size": 32
-                              },
-                              "class_list": [
-                                "metric-card-component",
-                                "has-data-binding"
-                              ],
-                              "color": "#2c3e50",
-                              "data_binding": {
-                                "data_field": "unique_source",
-                                "endpoint": "/model_count_4_card/",
-                                "entity": "Model"
-                              },
-                              "display_order": 0,
-                              "id": "iy7zsy",
-                              "metric": {
-                                "format": "number",
-                                "metricTitle": "Model Families tested",
-                                "negativeColor": "#e74c3c",
-                                "positiveColor": "#27ae60",
-                                "showTrend": true,
-                                "trend": 12,
-                                "value": 0,
-                                "valueColor": "#2c3e50",
-                                "valueSize": 32
-                              },
-                              "name": "iy7zsy",
-                              "title": "Model Families tested",
-                              "type": "metric-card"
-                            },
-                            {
-                              "attributes": {
-                                "data-field": "ee1a94d3-27c9-4669-9134-a2cae7488053",
-                                "data-source": "16a4766d-cdc1-4e69-b582-014ad2bada56",
-                                "format": "number",
-                                "id": "ip3i4k",
-                                "metric-title": "Total Models evaluated",
-                                "negative-color": "#e74c3c",
-                                "positive-color": "#27ae60",
-                                "show-trend": true,
-                                "value-color": "#2c3e50",
-                                "value-size": 32
-                              },
-                              "class_list": [
-                                "metric-card-component",
-                                "has-data-binding"
-                              ],
-                              "color": "#2c3e50",
-                              "data_binding": {
-                                "data_field": "unique_pid",
-                                "endpoint": "/model_count_4_card/",
-                                "entity": "Model"
-                              },
-                              "display_order": 1,
-                              "id": "ip3i4k",
-                              "metric": {
-                                "format": "number",
-                                "metricTitle": "Total Models evaluated",
-                                "negativeColor": "#e74c3c",
-                                "positiveColor": "#27ae60",
-                                "showTrend": true,
-                                "trend": 12,
-                                "value": 0,
-                                "valueColor": "#2c3e50",
-                                "valueSize": 32
-                              },
-                              "name": "ip3i4k",
-                              "title": "Total Models evaluated",
-                              "type": "metric-card"
-                            },
-                            {
-                              "attributes": {
-                                "data-field": "d6a622b9-2432-4411-a3f2-5815dff2085e",
-                                "data-source": "a2546a91-1913-4cac-86ac-283c39218a3a",
-                                "format": "number",
-                                "id": "ilcwkv",
-                                "metric-title": "No. of Metrics",
-                                "negative-color": "#e74c3c",
-                                "positive-color": "#27ae60",
-                                "show-trend": true,
-                                "value-color": "#2c3e50",
-                                "value-size": 32
-                              },
-                              "class_list": [
-                                "metric-card-component",
-                                "has-data-binding"
-                              ],
-                              "color": "#2c3e50",
-                              "data_binding": {
-                                "data_field": "unique_metric_name",
-                                "endpoint": "/model_count_4_card/",
-                                "entity": "Model"
-                              },
-                              "display_order": 2,
-                              "id": "ilcwkv",
-                              "metric": {
-                                "format": "number",
-                                "metricTitle": "No. of Metrics",
-                                "negativeColor": "#e74c3c",
-                                "positiveColor": "#27ae60",
-                                "showTrend": true,
-                                "trend": 12,
-                                "value": 0,
-                                "valueColor": "#2c3e50",
-                                "valueSize": 32
-                              },
-                              "name": "ilcwkv",
-                              "title": "No. of Metrics",
-                              "type": "metric-card"
-                            },
-                            {
-                              "attributes": {
-                                "format": "number",
-                                "metric-title": "Open-source models",
-                                "show-trend": true,
-                                "value-color": "#2c3e50",
-                                "value-size": 32
-                              },
-                              "class_list": ["metric-card-component", "has-data-binding"],
-                              "data_binding": {
-                                "data_field": "open_source_count",
-                                "endpoint": "/model_count_4_card/",
-                                "entity": "Model"
-                              },
-                              "display_order": 3,
-                              "id": "open_source_models_card",
-                              "metric": {
-                                "format": "number",
-                                "metricTitle": "Open-source models",
-                                "showTrend": true,
-                                "trend": 0,
-                                "value": 0,
-                                "valueColor": "#2c3e50",
-                                "valueSize": 32
-                              },
-                              "name": "open_source_models_card",
-                              "title": "Open-source models",
-                              "type": "metric-card"
-                            },
-                            {
-                              "attributes": {
-                                "format": "number",
-                                "metric-title": "Proprietary models",
-                                "show-trend": true,
-                                "value-color": "#2c3e50",
-                                "value-size": 32
-                              },
-                              "class_list": ["metric-card-component", "has-data-binding"],
-                              "data_binding": {
-                                "data_field": "proprietary_count",
-                                "endpoint": "/model_count_4_card/",
-                                "entity": "Model"
-                              },
-                              "display_order": 4,
-                              "id": "proprietary_models_card",
-                              "metric": {
-                                "format": "number",
-                                "metricTitle": "Proprietary models",
-                                "showTrend": true,
-                                "trend": 0,
-                                "value": 0,
-                                "valueColor": "#2c3e50",
-                                "valueSize": 32
-                              },
-                              "name": "proprietary_models_card",
-                              "title": "Proprietary models",
-                              "type": "metric-card"
-                            }
-
-                          ],
-                          "class_list": [
-                            "kpi-row"
-                          ],
-                          "description": " component",
-                          "display_order": 3,
-                          "id": "im3mgi",
-                          "name": "im3mgi",
-                          "type": "container"
-                        },
-                        {
-                          "attributes": {
-                            "id": "i34fiw"
-                          },
-                          "class_list": [
-                            "charts-row"
-                          ],
-                          "description": " component",
-                          "display_order": 5,
-                          "id": "i34fiw",
-                          "name": "i34fiw",
-                          "type": "component"
-                        }
-                      ],
-                      "description": " component",
-                      "display_order": 0,
-                      "id": "icu0vc",
-                      "name": "icu0vc",
-                      "type": "container"
-                    }
-                  ],
-                  "class_list": [
-                    "dashboard-container"
-                  ],
-                  "description": " component",
-                  "display_order": 3,
-                  "id": "i75sw8",
-                  "name": "i75sw8",
-                  "type": "container"
-                },
 
 
 
@@ -2638,11 +2389,11 @@
                       "attributes": {
                         "id": "idq5uq"
                       },
-                      "content": "AI Factories Credit Rating Dashboard",
+                      "content": "Credit Rating Dashboard",
                       "description": "Text element",
                       "display_order": 1,
                       "id": "idq5uq",
-                      "name": "AI Factories Credit Rating Dashboard",
+                      "name": "Credit Rating Dashboard",
                       "type": "text"
                     },
                     {
@@ -2865,7 +2616,15 @@
                               "type": "container"
                             }
 
+
                             
+
+
+
+                            
+
+
+
 
 
 
@@ -2891,6 +2650,10 @@
                       "name": "i3fydx",
                       "type": "container"
                     },
+
+
+
+
 
 
                     {
