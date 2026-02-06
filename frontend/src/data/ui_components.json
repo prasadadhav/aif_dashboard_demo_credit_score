@@ -141,11 +141,11 @@
                       "class_list": [
                         "heading"
                       ],
-                      "content": "Credit Score rating based on ML model",
+                      "content": "Credit Score rating",
                       "description": "Text element",
                       "display_order": 0,
                       "id": "h1",
-                      "name": "Credit Score rating based on ML model",
+                      "name": "Credit Score rating",
                       "tag": "h1",
                       "type": "text"
                     },
@@ -153,11 +153,11 @@
                       "class_list": [
                         "paragraph"
                       ],
-                      "content": "The ML model is trained on different features & different parameters.",
+                      "content": "Plugin: A4S",
                       "description": "Text element",
                       "display_order": 1,
                       "id": "p",
-                      "name": "The ML model is trained on different features & different parameters.",
+                      "name": "Plugin: A4S",
                       "tag": "p",
                       "type": "text"
                     }

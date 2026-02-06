@@ -7713,7 +7713,7 @@
                                     "components": [
                                       {
                                         "type": "textnode",
-                                        "content": "Credit Score rating based on ML model"
+                                        "content": "Credit Score rating"
                                       }
                                     ]
                                   },
@@ -7726,7 +7726,7 @@
                                     "components": [
                                       {
                                         "type": "textnode",
-                                        "content": "The ML model is trained on different features & different parameters."
+                                        "content": "Plugin: A4S"
                                       }
                                     ]
                                   }
