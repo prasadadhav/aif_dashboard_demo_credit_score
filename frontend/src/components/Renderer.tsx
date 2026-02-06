@@ -360,11 +360,23 @@ const getSeriesValue = (metricRow: any, seriesCfg: any): number | null => {
     // Filter out 'style' from attributes since we handle it separately as a React object
     const { style: _, ...safeAttributes } = component.attributes || {};
 
+    const isButtonCell =
+      component.class_list?.includes("gjs-cell") &&
+      (component.children ?? []).some((c: any) => c.type === "button");
+
+    const centeredCellStyle = isButtonCell
+    ? {
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+      }
+    : {};
+
     return React.createElement(
       tagName,
       {
         id: component.id,
-        style: { ...adjustedStyle, ...backgroundStyle },
+        style: { ...adjustedStyle, ...centeredCellStyle, ...backgroundStyle },
         className: component.class_list?.join(' '),
         ...safeAttributes
       },
